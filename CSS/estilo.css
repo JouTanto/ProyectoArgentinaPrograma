@@ -10,7 +10,12 @@ h6 {color: hsl(240, 38%, 46%);}
 form {color:rgb(146, 134, 63)}
 
 body {background-color: rgb(0, 0, 0);
-        background-image: url(img/fondo.jpg);
+        background-image: url(CSS/img/23625b.jpg);
 	    background-repeat: repeat;
 	    background-attachment: fixed;
 	    background-position: center center;}
+
+/**.caja1 {
+	position: relative;
+	display: inline-block;
+}*/
