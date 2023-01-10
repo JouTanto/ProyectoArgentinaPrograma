@@ -7,6 +7,7 @@ h4,
 h5,
 h6 {color: hsl(0, 0%, 100%);}
 
+/** Define color de la/s forma/s*/
 form {color:rgb(255, 0, 0)}
 
 body {background-color: rgb(0, 0, 0);
@@ -15,14 +16,35 @@ body {background-color: rgb(0, 0, 0);
 	    background-attachment: fixed;
 	    background-position: center center;}
 
+/** Define y crea las secciones*/
 section {
 	border: 1px solid white;
+	border-radius: 2em;
 	text-align: center;
 	background-image: url(/ProyectoArgentinaPrograma/img/2441.png);
+	width: 1500px;
 }
 
+/** Define el espacio entre secciones*/
+.espacio_section {
+	border: 0px;
+	width: 10px;
+	height: 10px;
+}
+
+/** Define color de fondo de la primer seccion, ver si se definen el resto de las secciones*/
 .bg_section {
 	background: linear-gradient(to right, rgb(0, 21, 44), rgb(59, 59, 59));
+}
+
+/** Define un circulo para futura foto, ver como insertarla*/
+.circulo {
+	width: 120px;
+	height: 120px;
+	-moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+	background: black;
 }
 
 /**.caja1 {
