@@ -1,4 +1,6 @@
-p {color: rgb(255, 255, 255);}
+p {color: rgb(255, 255, 255);
+	font-family: italic;
+	}
 
 h1,
 h2,
@@ -50,6 +52,13 @@ section {
 	background-image: url(/img/fondo.jpg);
 }
 
+/** Define algo de las listas*/
+.lista {color:lightblue;
+		font-family: serif;
+		text-align: left;}
+
+.lista_redes_sociales {text-align: left;
+						color:lightblue}
 /**.caja1 {
 	position: relative;
 	display: inline-block;
