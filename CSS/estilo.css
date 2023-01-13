@@ -8,10 +8,25 @@ h3,
 h4,
 h5,
 h6 {color: hsl(0, 0%, 100%);
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:x-large;
 }
 
 /** Define color de la/s forma/s*/
 form {color:rgb(255, 0, 0);
+		height: auto;
+		width: 960px;
+		margin: 25px auto;
+		
+}
+
+.bg_form {
+	background: linear-gradient(rgba(0, 0, 0, 0.815), hsla(138, 13%, 19%, 0.815));
+	margin: auto;
+	width: 960px;
+	height: 80px;
+	box-shadow: 1px 1px 10px rgba(92, 7, 7, 0.87);
+	position: inherit;
 }
 
 /**Define el cuerpo*/
@@ -67,25 +82,29 @@ section {
 }
 
 /** Define un circulo para futura foto, ver como insertarla*/
-.circulo {
+.sec_foto {
 	width: 150px;
 	height: 150px;
-	-moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
+	margin:auto ;
+	float: initial;
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.87);
 }
-
-.imagen_retrato {
-	background-image: url(img/fotoretratoprueba.jpg);
-	background-position: center;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
+/** Customisa foto*/
+.imagen_retrato { 
+			height: 150px;
+			width: 150px;
+			float:initial;
+			border-radius: 50%;
 }
 
 /** Define algo de las listas*/
-.lista {color:lightblue;
-		font-family: serif;
-		text-align: left;}
+.lista {
+		font-size: 20px;
+		color:lightblue;
+		font-family:Arial, Helvetica, sans-serif;
+		text-align: left;
+}
 
 /** Define lista redes sociales*/
 .lista_redes_sociales {text-align: left;
