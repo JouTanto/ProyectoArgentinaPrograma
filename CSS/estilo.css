@@ -39,7 +39,7 @@ body {background-color: rgb(0, 0, 0);
 /** Seccion contenedoral, revisar no puedo ver imagen de fondo*/
 .secgeneral {
         	background-image: url(img/23625b.jpg);
-			margin: auto;
+			margin: 25px auto;
 			width: 1500px;
 			height: auto;
 			background: linear-gradient(rgb(2, 75, 44), rgb(2, 37, 82));
@@ -48,7 +48,7 @@ body {background-color: rgb(0, 0, 0);
 
 /** Secccion redes sociales*/
 .secsocial {
-			height: 100px;
+			height: 50px;
 			width: 200px;
 			float: right;
 			margin: 5px;
