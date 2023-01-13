@@ -1,30 +1,51 @@
 p {color: rgb(255, 255, 255);
 	font-family: italic;
-	}
+}
 
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {color: hsl(0, 0%, 100%);}
+h6 {color: hsl(0, 0%, 100%);
+}
 
 /** Define color de la/s forma/s*/
-form {color:rgb(255, 0, 0)}
+form {color:rgb(255, 0, 0);
+}
 
+/**Define el cuerpo*/
 body {background-color: rgb(0, 0, 0);
-        background-image: url(/img/23625b.jpg);
-	    background-repeat: repeat;
+		background-repeat: no-repeat;
 	    background-attachment: fixed;
 	    background-position: center center;
-		}
+}
+
+/** Seccion contenedoral, revisar no puedo ver imagen de fondo*/
+.secgeneral {
+        	background-image: url(img/23625b.jpg);
+			margin: auto;
+			width: 1500px;
+			height: auto;
+			background: linear-gradient(rgb(2, 75, 44), rgb(2, 37, 82));
+			box-shadow: 1px 1px 15px rgb(255, 255, 255);
+}
+
+/** Secccion redes sociales*/
+.secsocial {
+			height: 100px;
+			width: 200px;
+			float: right;
+			margin: 5px;
+			background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(75, 67, 1, 0.815));
+			box-shadow: 1px 1px 10px rgba(137, 139, 12, 0.87);
+}
 
 /** Define y crea las secciones*/
 section {
 	border: 1px solid white;
 	border-radius: 2em;
 	text-align: center;
-	background-image: url(/img/2441.png);
 	margin-left: 300px;
 	margin-right: 300px;
 }
@@ -38,18 +59,27 @@ section {
 
 /** Define color de fondo de la primer seccion, ver si se definen el resto de las secciones*/
 .bg_section {
-	background: linear-gradient(to right, rgb(0, 21, 44), rgb(59, 59, 59));
+	background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(42, 54, 56, 0.815));
+	margin: auto;
+	width: 1024px;
+	height: auto;
+	box-shadow: 1px 1px 10px rgba(92, 7, 7, 0.87);
 }
 
 /** Define un circulo para futura foto, ver como insertarla*/
 .circulo {
-	width: 120px;
-	height: 120px;
+	width: 150px;
+	height: 150px;
 	-moz-border-radius: 50%;
     -webkit-border-radius: 50%;
     border-radius: 50%;
-	background: black;
-	background-image: url(/img/fondo.jpg);
+}
+
+.imagen_retrato {
+	background-image: url(img/fotoretratoprueba.jpg);
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 /** Define algo de las listas*/
@@ -57,9 +87,7 @@ section {
 		font-family: serif;
 		text-align: left;}
 
+/** Define lista redes sociales*/
 .lista_redes_sociales {text-align: left;
-						color:lightblue}
-/**.caja1 {
-	position: relative;
-	display: inline-block;
-}*/
+						color:lightblue;
+}
