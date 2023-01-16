@@ -197,6 +197,21 @@ section {
 }
 /*FIN CUSTOMIZACION FOTO RETRATO*/
 
+/*DEFINE TUTULO A UN LADO DEL RETRATO*/
+.titulo_cont {
+	display:flex;
+	float:right;
+	width: 350px;
+	position:relative;
+}
+
+.texto_cont {
+	width: 400px;
+	margin-right: 25px;
+	font-family: 'Arial';
+}
+/*FIN TITULO A UN LADO DEL RETRATO*/
+
 /*DEFINE UNA LIENA DE SEPARACION*/
 .linea_img {
 	width: 960px;
