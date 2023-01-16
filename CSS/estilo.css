@@ -8,105 +8,199 @@ h3,
 h4,
 h5,
 h6 {color: hsl(0, 0%, 100%);
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:x-large;
+	font-family: 'Arial';
+	font-size: 20px;
 }
 
-/** Define color de la/s forma/s*/
-form {color:rgb(255, 0, 0);
-		height: auto;
-		width: 960px;
-		margin: 25px auto;
-		
-}
-
-.bg_form {
-	background: linear-gradient(rgba(0, 0, 0, 0.815), hsla(138, 13%, 19%, 0.815));
+/* DEFINE IMAGEN; HOVER Y DATOS*/
+.contenedor {
+	width: 480px;
+	height: 480px;
 	margin: auto;
-	width: 960px;
-	height: 80px;
-	box-shadow: 1px 1px 10px rgba(92, 7, 7, 0.87);
-	position: inherit;
+	position: relative;
+	float: left;
+	overflow: hidden;
+	transition: all .5s;
+	border-radius: 80px;
 }
 
-/**Define el cuerpo*/
+.contenedor:hover img{
+	transform: scale(1.09);
+	transition: all .5s;
+}
+
+.img_contenedor {
+	width: 100%;
+	min-width: 540px;
+}
+
+.texto_contenedor {
+	background-color: rgba(29, 41, 58, 0.801);
+	position: absolute;
+	top:-95%;
+	left:70px;
+	text-align:justify;
+	height:399px;
+	width: 399px;
+	border-radius: 75px;
+}
+
+.texto_contenedor h3 {
+	text-align: center;
+	font-size: 25px;
+	font-family: 'Arial';
+	font-style: italic;
+	padding: 5px 5px;
+}
+
+.texto_contenedor p {
+	padding: 1px 5px 1px 5px;
+	font-family: 'Arial';
+	font-style: italic;
+}
+
+.contenedor:hover .texto_contenedor {
+	top:10px;
+	transition: all .5s;
+}
+/*FIN DE IMAGEN; HOVER Y DATOS*/
+
+/** DEFINE UN FORMULARIO*/
+.bg_form {
+	width: 400px;
+	background: linear-gradient(rgba(29, 41, 58, 0.801), rgba(0, 0, 0, 0.801));
+	padding: 30px;
+	margin: auto;
+	margin-top: 20px;
+	border-radius: 10px;
+	font-family: 'arial';
+	color: white;
+	box-shadow: 7px -13px 37px black;
+}
+
+.form_titulo {
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+
+.bg_inp {
+	width: 95%;
+	background: rgb(32, 32, 37);
+	padding: 10px;
+	border-radius: 4px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(35, 108, 245);
+	font-family: 'arial';
+	font-size: 18px;
+	color: white;
+}
+
+.btn_registro p {
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+	font-family: 'arial';
+}
+
+.btn_registro a {
+	color:white;
+	text-decoration: none;
+}
+
+.btn_registro a:hover {
+	color:white;
+	text-decoration: underline;
+}
+
+.form_registro_boton {
+	width: 100%;
+	background: rgb(42, 42, 80);
+	border:none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+}
+/*FIN DE FORMULARIO*/
+
+/*DEFINE EL CUERPO*/
 body {background-color: rgb(0, 0, 0);
-		background-repeat: no-repeat;
-	    background-attachment: fixed;
-	    background-position: center center;
+	display: flex;
 }
+/*FIN CUERPO*/
 
-/** Seccion contenedoral, revisar no puedo ver imagen de fondo*/
+/*DEFINE SECCION PARA EL CONTENIDO*/
 .secgeneral {
-        	background-image: url(img/23625b.jpg);
+			flex-basis: 100%;
 			margin: 25px auto;
-			width: 1500px;
 			height: auto;
 			background: linear-gradient(rgb(2, 75, 44), rgb(2, 37, 82));
 			box-shadow: 1px 1px 15px rgb(255, 255, 255);
 }
+/*FIN SECCION DE CONTENIDO*/
 
-/** Secccion redes sociales*/
+/*DEFINE SECCION REDES SOCIALES*/
 .secsocial {
 			height: 50px;
-			width: 200px;
+			flex-basis: 100%;
 			float: right;
-			margin: 5px;
+			margin: auto auto;
 			background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(75, 67, 1, 0.815));
-			box-shadow: 1px 1px 10px rgba(137, 139, 12, 0.87);
+			box-shadow: 1px 1px 5px rgba(137, 139, 12, 0.87);
 }
+/*FIN SECCION REDES SOCIALES*/
 
-/** Define y crea las secciones*/
+/*DEFINE SECCION PRIMARIA*/
 section {
-	border: 1px solid white;
+	border: 0px;
 	border-radius: 2em;
 	text-align: center;
 	margin-left: 300px;
 	margin-right: 300px;
+	flex-basis: 100%;
 }
+/*FIN SECCION PRIMARIA*/
 
-/** Define el espacio entre secciones*/
+/* VER QUE HACER CON ESTO; ESPACCION ENTRE SECCIONES DE CONTENIDO*/
 .espacio_section {
 	border: 0px;
 	width: 10px;
 	height: 10px;
 }
 
-/** Define color de fondo de la primer seccion, ver si se definen el resto de las secciones*/
+/*DEFINE CUSTOMIZACION SECCION CONTENIDOS*/
 .bg_section {
 	background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(42, 54, 56, 0.815));
 	margin: auto;
+	padding: auto;
 	width: 1024px;
 	height: auto;
-	box-shadow: 1px 1px 10px rgba(92, 7, 7, 0.87);
+	box-shadow: 1px 1px 10px rgba(9, 230, 164, 0.87);
+}
+/*FIN CUSTOMIZACION CONTENIDO*/
+
+/*DEFINE CUSTOMIZACION FOTO RETRATO*/
+.contenedor_retrato {
+	width: 300px;
+	height: 300px;
+	margin: auto 50px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 100px;
+	box-shadow: white 1px 1px 15px;
 }
 
-/** Define un circulo para futura foto, ver como insertarla*/
-.sec_foto {
-	width: 150px;
-	height: 150px;
-	margin:auto ;
-	float: initial;
-	border-radius: 50%;
-	box-shadow: 1px 1px 10px rgba(255, 255, 255, 0.87);
+.img_retrato {
+	width: 50%;
+	min-width: 300px;
 }
-/** Customisa foto*/
-.imagen_retrato { 
-			height: 150px;
-			width: 150px;
-			float:initial;
-			border-radius: 50%;
-}
+/*FIN CUSTOMIZACION FOTO RETRATO*/
 
-/** Define algo de las listas*/
-.lista {
-		font-size: 20px;
-		color:lightblue;
-		font-family:Arial, Helvetica, sans-serif;
-		text-align: left;
+/*DEFINE UNA LIENA DE SEPARACION*/
+.linea_img {
+	width: 960px;
+	background-position: center;
+	padding-top: 15px;
 }
-
-/** Define lista redes sociales*/
-.lista_redes_sociales {text-align: left;
-						color:lightblue;
-}
+/*FIN LINEA DE SEPARACION*/
