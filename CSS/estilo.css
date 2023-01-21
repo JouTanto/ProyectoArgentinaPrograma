@@ -132,11 +132,11 @@ body {background-color: rgb(0, 0, 0);
 
 /*DEFINE SECCION PARA EL CONTENIDO*/
 .secgeneral {
+			padding: 10px 10px 10px 10px;
 			flex-basis: 100%;
 			margin: 25px auto;
 			height: auto;
-			background: linear-gradient(rgb(2, 75, 44), rgb(2, 37, 82));
-			box-shadow: 1px 1px 15px rgb(255, 255, 255);
+			box-shadow: 0px 1px 35px rgb(54, 53, 53);
 }
 /*FIN SECCION DE CONTENIDO*/
 
@@ -145,9 +145,9 @@ body {background-color: rgb(0, 0, 0);
 			height: 50px;
 			flex-basis: 100%;
 			float: right;
-			margin: auto auto;
-			background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(75, 67, 1, 0.815));
-			box-shadow: 1px 1px 5px rgba(137, 139, 12, 0.87);
+			margin: auto 5px;
+			/*background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(75, 67, 1, 0.815));*/
+			box-shadow: 0px -1px 3px rgba(137, 139, 12, 0.87);
 }
 /*FIN SECCION REDES SOCIALES*/
 
@@ -173,10 +173,10 @@ section {
 .bg_section {
 	background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(42, 54, 56, 0.815));
 	margin: auto;
-	padding: auto;
+	padding: 10px 10px 10px 10px;
 	width: 1024px;
 	height: auto;
-	box-shadow: 1px 1px 10px rgba(9, 230, 164, 0.87);
+	box-shadow: 0px 1px 5px rgba(9, 230, 164, 0.87);
 }
 /*FIN CUSTOMIZACION CONTENIDO*/
 
@@ -186,14 +186,12 @@ section {
 	height: 300px;
 	margin: auto 50px;
 	position: relative;
-	overflow: hidden;
-	border-radius: 100px;
-	box-shadow: white 1px 1px 15px;
 }
 
 .img_retrato {
-	width: 50%;
+	width: 100%;
 	min-width: 300px;
+	border-radius: 100px;
 }
 /*FIN CUSTOMIZACION FOTO RETRATO*/
 
@@ -201,14 +199,21 @@ section {
 .titulo_cont {
 	display:flex;
 	float:right;
-	width: 350px;
-	position:relative;
+	width: 700px;
+	box-shadow: 0px -2px 7px rgb(126, 1, 1);
+	/*background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(78, 1, 1, 0.801));*/
+	border-radius: 100px;
+	
 }
 
 .texto_cont {
-	width: 400px;
+	width: 650px;
 	margin-right: 25px;
-	font-family: 'Arial';
+	margin-top: 100px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-style: italic;
+	text-decoration: underline;
+	text-decoration-color: rgb(0, 153, 255);
 }
 /*FIN TITULO A UN LADO DEL RETRATO*/
 
@@ -216,6 +221,19 @@ section {
 .linea_img {
 	width: 960px;
 	background-position: center;
-	padding-top: 15px;
+	padding-top: 25px;
 }
 /*FIN LINEA DE SEPARACION*/
+
+
+/*DEFINE VIDEO DE FONDO*/
+video {
+	min-width: 100%;
+	min-height: 100%;
+	position: fixed;
+	top:50%;
+	left:50%;
+	transform: translateY(-50%) translateX(-50%);
+	z-index:-1;
+}
+/*FIN VIDEO DE FONDO*/
