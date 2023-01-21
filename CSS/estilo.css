@@ -147,7 +147,7 @@ body {background-color: rgb(0, 0, 0);
 			float: right;
 			margin: auto 5px;
 			/*background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(75, 67, 1, 0.815));*/
-			box-shadow: 0px -1px 3px rgba(137, 139, 12, 0.87);
+			box-shadow: 0px -1px 5px rgba(12, 109, 139, 0.87);
 }
 /*FIN SECCION REDES SOCIALES*/
 
@@ -176,7 +176,7 @@ section {
 	padding: 10px 10px 10px 10px;
 	width: 1024px;
 	height: auto;
-	box-shadow: 0px 1px 5px rgba(9, 230, 164, 0.87);
+	box-shadow: 0px -1px 5px rgba(9, 230, 164, 0.87);
 }
 /*FIN CUSTOMIZACION CONTENIDO*/
 
@@ -186,6 +186,8 @@ section {
 	height: 300px;
 	margin: auto 50px;
 	position: relative;
+	box-shadow: 0px -1px 7px rgb(121, 25, 25);
+	border-radius: 100px;
 }
 
 .img_retrato {
@@ -200,9 +202,10 @@ section {
 	display:flex;
 	float:right;
 	width: 700px;
-	box-shadow: 0px -2px 7px rgb(126, 1, 1);
+	box-shadow: 0px -2px 7px rgb(255, 230, 0);
 	/*background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(78, 1, 1, 0.801));*/
 	border-radius: 100px;
+	padding: 10px 10px 10px 10px;
 	
 }
 
