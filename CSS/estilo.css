@@ -68,7 +68,7 @@ h6 {color: hsl(0, 0%, 100%);
 /** DEFINE UN FORMULARIO*/
 .bg_form {
 	width: 400px;
-	background: linear-gradient(rgba(29, 41, 58, 0.801), rgba(0, 0, 0, 0.801));
+	background: linear-gradient(rgba(35, 70, 67, 0.801), rgba(0, 0, 0, 0.801));
 	padding: 30px;
 	margin: auto;
 	margin-top: 20px;
@@ -109,14 +109,27 @@ h6 {color: hsl(0, 0%, 100%);
 }
 
 .btn_registro a:hover {
-	color:white;
+	color:rgb(255, 0, 0);
 	text-decoration: underline;
 }
 
 .form_registro_boton {
 	width: 100%;
 	background: rgb(42, 42, 80);
-	border:none;
+	border: none;
+	border-radius: 4px;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 16px;
+	transition: all 0.2s;
+}
+
+.form_registro_boton:hover {
+	width: 100%;
+	background: rgb(42, 80, 57);
+	border: none;
+	border-radius: 4px;
 	padding: 12px;
 	color: white;
 	margin: 16px 0;
@@ -128,10 +141,10 @@ h6 {color: hsl(0, 0%, 100%);
 body {
 	background-color: rgb(0, 0, 0);
 	display: flex;
-	flex-direction: row;
-    flex-wrap: nowrap;
+	flex-direction: column;
+    flex-basis: 100%;
     align-items: stretch;
-	margin: auto;
+	margin: 5px 5px 5px 5px;
 }
 /*FIN CUERPO*/
 
@@ -144,29 +157,69 @@ no se donde esta el error pero seguire trabajando en el tema*/
 			flex-basis: 100%;
 			margin: 25px auto;
 			height: auto;
-			box-shadow: 0px 1px 35px rgb(54, 53, 53);
+			box-shadow: 0px 2px 35px rgb(75, 74, 74);
 }
 /*FIN SECCION DE CONTENIDO*/
 
 /*DEFINE SECCION REDES SOCIALES*/
 .secsocial {
-			height: 50px;
-			flex-basis: 100%;
-			float: right;
-			margin: auto 5px;
-			/*background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(75, 67, 1, 0.815));*/
-			box-shadow: 0px -1px 5px rgba(12, 109, 139, 0.87);
+		position:fixed;
+		right:0px;
+		top: 65px;
+		font-size: 1.5rem;
+		display:flex;
+		flex-direction: column;
+		align-items:flex-end;
+}
+
+.icono {
+		color:white;
+		text-decoration: none;
+		padding: .7rem;
+		display: flex;
+		transition: all .5s;
+}
+
+.icono_instagram {
+	background: #3f60a5;
+}
+
+.icono_facebook {
+	background: #2E406E;
+}
+
+.icono_twitter {
+	background: #339DC5;
+}
+
+.icono_mail {
+	background: rgb(41, 40, 40);
+}
+
+.icono:first-child {
+	border-radius: 1rem 0 0 0;
+}
+
+.icono:last-child {
+	border-radius: 0 0 0 1rem;
+}
+
+.icono:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+	box-shadow: 0 0 .5rem rgba(0, 0, 0, 0.42);
 }
 /*FIN SECCION REDES SOCIALES*/
 
 /*DEFINE SECCION PRIMARIA*/
 section {
+	flex-basis: 100%;
 	border: 0px;
-	border-radius: 2em;
+	border-radius: 20px;
 	text-align: center;
 	margin-left: 300px;
 	margin-right: 300px;
-	flex-basis: 100%;
+	
 }
 /*FIN SECCION PRIMARIA*/
 
@@ -180,12 +233,13 @@ section {
 
 /*DEFINE CUSTOMIZACION SECCION CONTENIDOS*/
 .bg_section {
-	background: linear-gradient(rgba(0, 0, 0, 0.815), rgba(42, 54, 56, 0.815));
+	background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
 	margin: auto;
 	padding: 10px 10px 10px 10px;
 	width: 1024px;
 	height: auto;
 	box-shadow: 0px -1px 5px rgba(9, 230, 164, 0.87);
+	border-radius: 20px;
 }
 /*FIN CUSTOMIZACION CONTENIDO*/
 
@@ -193,28 +247,29 @@ section {
 .contenedor_retrato {
 	width: 300px;
 	height: 300px;
-	margin: auto 50px;
-	position: relative;
+	margin: auto 25px;
+	position:relative;
 	box-shadow: 0px -1px 7px rgb(121, 25, 25);
-	border-radius: 100px;
+	border-radius: 20px;
 }
 
 .img_retrato {
 	width: 100%;
 	min-width: 300px;
-	border-radius: 100px;
+	border-radius: 20px;
 }
 /*FIN CUSTOMIZACION FOTO RETRATO*/
 
 /*DEFINE TUTULO A UN LADO DEL RETRATO*/
 .titulo_cont {
 	display:flex;
-	float:right;
+	float:left;
 	width: 700px;
-	box-shadow: 0px -2px 7px rgb(255, 230, 0);
+	box-shadow: 0px -2px 7px rgb(52, 110, 106);
 	/*background: linear-gradient(rgba(0, 0, 0, 0.801), rgba(78, 1, 1, 0.801));*/
-	border-radius: 100px;
+	border-radius: 20px;
 	padding: 10px 10px 10px 10px;
+	margin-left: 150px;
 	
 }
 
@@ -250,6 +305,50 @@ video {
 	flex-basis: 100%;
 }
 /*FIN VIDEO DE FONDO*/
+
+/*MENU LATERAL DESPLEGABLE*/
+#sidebar {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 200px;
+	height: 100%;
+	background: rgba(48, 54, 52, 0.87);
+	left:-200px;
+	transition: all, .5s linear;
+}
+
+#sidebar .active {
+	left: 0;
+}
+
+#sidebar ul li{
+	color:rgba(209, 222, 247, 0.815);
+	text-align: center;
+	padding: 15px 10px;
+	list-style: none;
+	border-bottom: 1px solid rgb(41, 40, 40);
+}
+
+#sidebar .toggle-btn{
+	position: absolute;
+	left: 230px;
+	top: 20px;
+	cursor:pointer;
+}
+
+#sidebar .toggle-btn span {
+	display: block;
+	width: 40px;
+	text-align: center;
+	font-size: 30px;
+	border: 1px solid rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+}
+/*FIN MENU DEPLEGABLE*/
+
+
+
 
 /* Dejo comentario referente a que hasta el momento llegue hasta aquí con el diseño y programacion web,
 no pude dedicarle el suficiente tiempo, debido a que mi trabajo me demanda mucho tiempo, 
