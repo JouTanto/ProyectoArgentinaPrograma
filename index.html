@@ -1,153 +1,97 @@
-<!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Proyecto Joel</title>
-    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
-    <style tipe="text/css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Proyecto Joel</title>
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
         
-        .bg_imagen_grl {
-            flex-basis: 100%;
-            background-image: url();
-            background-repeat: repeat;
-            background-attachment: fixed;
-            background-position: center;
-        }
-
-        @media (max-width: 100px){
-            .bg_imagen_grl{
-                flex-direction:column;
-                flex-basis: 100%;
-            }
-        }
-
-        @media (max-width: 100px){
-            section{
-                flex-direction:column;
-                flex-basis: 100%;
-            }
-        }
-
-        @media (max-width: 100px){
-            .secgeneral{
-                flex-direction:column;
-                flex-basis: 100%;
-            }
-        }
-
-        @media (max-width: 100px){
-            .bg_section{
-                flex-direction: column;
-                flex-basis: 100%;
-            }
-        }
-
-        @media (max-width: 100px){
-            .secsocial{
-                flex-direction: column;
-                
-            }
-        }
-        @media (max-width: 100px){
-            video{
-                flex-direction: column;
-                flex-basis: 100%;
-            }
-        }
+        <style tipe="text/css">
             
-    </style>
-</head>
-<body>
+            .bg_imagen_grl {
+    @ -17,12 +16,6 @@
+                background-position: center;
+            }
     
-    <section class="secgeneral bg_imagen_grl">
-        <video onloadedmetadata="this.muted=true" autoplay loop muted>
-            <source src="img/video.mp4" codecs="avc1,mp4a"/>
-        </video>
-        <section class="bg_section">
-            <section class="secsocial">
-                <a href="https://www.instagram.com/"><img src="img/Entypo_f319(0)_48.png"/></a>
-                <a href="https://www.facebook.com/"><img src="img/Entypo_f30d(4)_48.png"></a>
-                <a href="https://twitter.com/?lang=es"><img src="img/Entypo_f30a(5)_48.png"/></a>
-            </section>
-
-            <div class="titulo_cont">
-                <div class="contenedor_retrato">
-                    <img class="img_retrato" src="img/fotoretratoprueba.jpg"/>
-                </div>
-                    <h1 class="texto_cont">HOLA!!!!!....., BIENVENIDO A MI WEB CV</h1>
-            </div>
+            @media (max-width: 100px){
+                body{
+                    flex-direction: column;
+                    flex-basis: 100%;
+                }
+            }
+            @media (max-width: 100px){
+                .bg_imagen_grl{
+                    flex-direction:column;
+    @ -57,47 +50,33 @@
+                    
+                }
+            }
+            
+            @media (max-width: 100px){
+                video{
+                    flex-direction: column;
+                    flex-basis: 100%;
+                }
+            }  
+            }
                 
-            <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
+        </style>
         
-            <div class="contenedor">
-                <div class="img_contenedor">
-                    <img src="img/FontAwesome_f007(0)_420.png"/>
-                </div>
-                    <div class="texto_contenedor">
-                        <h3>HOLA!!!</h3>
-                        <p>...me llamo Joel Emmanuel Orellana...</p>
-                        <p>...naci en la ciudad de Gualeguaychú, provincia de Entre Ríos...</p>
-                        <p>...el 9 de febrero de 1984, tengo 38 años de edad...</p>
-                        <p>...actualmente vivo en la ciudad de Esquel, provincia del Chubut.</p>
-                        <p>...este es mi correo: mdkjoel@hotmail.com...</p>
-                        <p>...y aca esta mi numero de Celular: 0000-00000000...</p>
-                    </div>
+    </head>
+    <body>
+        <div id="sidebar">
+            <div class="toggle-btn">
+                <span>&#9776;</span>
             </div>
-            <div class="contenedor">
-                <div class="img_contenedor">
-                    <img src="img/FontAwesome_f022(0)_420.png"/>
-                </div>
-                    <div class="texto_contenedor">
-                        <h3>EDUCACION</h3>
-                        <p>...Escuela Primaria: aca va escuela Primaria...</p>
-                        <p>...Escuela Secundaria: aca va escuela Secundaria...</p>
-                        <p>...Estudios terciarios: aca va estudios Terciarios...</p>
-                        <p>...Estudios Universitarios: aca va estudios Universitarios...</p>
-                        <p>...Posgrado: aca va estudios de Posgrado...</p>
-                    </div>
-            </div>
-            <div class="contenedor">
-                <div class="img_contenedor">
-                    <img src="img/FontAwesome_f0eb(0)_420.png"/>
-                </div>
-                    <div class="texto_contenedor">
-                        <h3>EXPERIENCIA</h3>
-                        <p>...1985 - 1990: aca trabajo en tal lado...</p>
-                        <p>...1992 - 2000: aca trabajo en tal lado...</p>
-                        <p>...2001 - 2010: aca trabajo en tal lado...</p>
-                    </div>
-            </div>
-            <div class="contenedor">
-                <div class="img_contenedor">
-                    <img src="img/FontAwesome_f085(0)_420.png"/>
-                </div>
-                    <div class="texto_contenedor">
-                        <h3>HABILIDADES</h3>
-                        <p>...Aca va una breve descripcion de una habilidad (ejemplo, programador web)...</p>
-                        <p>...Aca va una breve descripcion de una habilidad (ejemplo, diagnostico y mantenimiento de PC)...</p>
-                    </div>
-            </div>
+            <ul>
+                <li><img src="img/Entypo_2302(0)_48.png">Home</li>
+                <li><img src="img/Entypo_d83c(0)_48.png">Imagenes</li>
+                <li><img src="img/Entypo_e777(0)_48.png">Documentos</li>
+                <li><img src="img/Entypo_d83d(0)_48.png">Cambios</li>
+                <li><img src="img/Entypo_270e(0)_48.png">Acerca de...</li>
+            </ul>
+        </div>
+        <script src="js/menu.js"></script>
         
-            <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
-
-            <h4 class="btn_registro p">Registrate en ..., para poder acceder a tu cuenta.</h4>
-                <form class="bg_form" action="" method="post">
-                    <h4 class="form_titulo">Formulario de Registro</h4>
-                        <input class="bg_inp" type="text" name="nombre" placeholder="Ingrese su Nombre" required>
-                        <input class="bg_inp" type="text" name="apellido" placeholder="Ingrese su Apellido" required>
-                        <input class="bg_inp" type="email" name="e-mail" placeholder="Ingrese su E-mail" required>
-                        <input class="bg_inp" type="password" name="password" placeholder="Ingrese su Contraseña" required>
-                    <p class="btn_registro p btn_registro a btn_registro a:hover">Estoy de acuerdo con los <a href="#">Terminos y Condiciones</a></p>
-                        <input class="form_registro_boton" type="submit" value="Registrar">
-                    <p class="btn_registro p btn_registro a btn_registro a:hover"><a href="#">¿Ya tengo Cuenta?</a></p>
-                </form>
-
-            <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
-
-            </section>
-        </section>
+        <section class="secgeneral bg_imagen_grl">
+            <video onloadedmetadata="this.muted=true" autoplay loop muted>
+                <source src="img/videobg.mp4" codecs="avc1,mp4a"/>
+                <source src="img/video.mp4" codecs="avc1,mp4a"/>
+            </video>
+            <section class="bg_section">
+                <section class="secsocial">
+                    <a href="https://www.instagram.com/"><img src="img/Entypo_f319(0)_48.png"/></a>
+                    <a href="https://www.facebook.com/"><img src="img/Entypo_f30d(4)_48.png"></a>
+                    <a href="https://twitter.com/?lang=es"><img src="img/Entypo_f30a(5)_48.png"/></a>
+                </section>
     
-</body>
-</html>
+                <div class="titulo_cont">
+                    <div class="contenedor_retrato">
+                        <img class="img_retrato" src="img/fotoretratoprueba.jpg"/>
+                    </div>
+                        <h1 class="texto_cont">HOLA!!!!!....., BIENVENIDO A MI WEB CV</h1>
+                    <div class="secsocial">
+                            <a href="https://www.instagram.com/" class="icono icono_instagram" target="_blank"><img src="img/Entypo_f319(0)_48.png"/></a>
+                            <a href="https://www.facebook.com/" class="icono icono_facebook" target="_blank"><img src="img/Entypo_f30d(4)_48.png"></a>
+                            <a href="https://twitter.com/?lang=es" class="icono icono_twitter" target="_blank"><img src="img/Entypo_f30a(5)_48.png"/></a>
+                            <a href="mailto:mdkjoel@hotmail.com" class="icono icono_mail"><img src="img/Entypo_2709(0)_48.png"/></a>
+                    </div>
+                </div>
+                    
+                <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
+    @ -150,7 +129,7 @@
+                            <p>...Aca va una breve descripcion de una habilidad (ejemplo, diagnostico y mantenimiento de PC)...</p>
+                        </div>
+                </div>
+         
+            
+                <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
+    
+                <h4 class="btn_registro p">Registrate en ..., para poder acceder a tu cuenta.</h4>
+    @ -169,5 +148,6 @@
+    
+                </section>
+            </section>
+        
+    </body>
+    </html>
