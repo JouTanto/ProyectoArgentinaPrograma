@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Proyecto Joel</title>
     <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+    
     <style tipe="text/css">
         
         .bg_imagen_grl {
@@ -16,6 +17,12 @@
             background-position: center;
         }
 
+        @media (max-width: 100px){
+            body{
+                flex-direction: column;
+                flex-basis: 100%;
+            }
+        }
         @media (max-width: 100px){
             .bg_imagen_grl{
                 flex-direction:column;
@@ -50,33 +57,47 @@
                 
             }
         }
+        
         @media (max-width: 100px){
             video{
                 flex-direction: column;
                 flex-basis: 100%;
             }
-        }
-            
+        }  
     </style>
+    
 </head>
 <body>
+    <div id="sidebar">
+        <div class="toggle-btn">
+            <span>&#9776;</span>
+        </div>
+        <ul>
+            <li><img src="img/Entypo_2302(0)_48.png">Home</li>
+            <li><img src="img/Entypo_d83c(0)_48.png">Imagenes</li>
+            <li><img src="img/Entypo_e777(0)_48.png">Documentos</li>
+            <li><img src="img/Entypo_d83d(0)_48.png">Cambios</li>
+            <li><img src="img/Entypo_270e(0)_48.png">Acerca de...</li>
+        </ul>
+    </div>
+    <script src="js/menu.js"></script>
     
     <section class="secgeneral bg_imagen_grl">
         <video onloadedmetadata="this.muted=true" autoplay loop muted>
-            <source src="img/video.mp4" codecs="avc1,mp4a"/>
+            <source src="img/videobg.mp4" codecs="avc1,mp4a"/>
         </video>
         <section class="bg_section">
-            <section class="secsocial">
-                <a href="https://www.instagram.com/"><img src="img/Entypo_f319(0)_48.png"/></a>
-                <a href="https://www.facebook.com/"><img src="img/Entypo_f30d(4)_48.png"></a>
-                <a href="https://twitter.com/?lang=es"><img src="img/Entypo_f30a(5)_48.png"/></a>
-            </section>
-
             <div class="titulo_cont">
                 <div class="contenedor_retrato">
                     <img class="img_retrato" src="img/fotoretratoprueba.jpg"/>
                 </div>
                     <h1 class="texto_cont">HOLA!!!!!....., BIENVENIDO A MI WEB CV</h1>
+                <div class="secsocial">
+                        <a href="https://www.instagram.com/" class="icono icono_instagram" target="_blank"><img src="img/Entypo_f319(0)_48.png"/></a>
+                        <a href="https://www.facebook.com/" class="icono icono_facebook" target="_blank"><img src="img/Entypo_f30d(4)_48.png"></a>
+                        <a href="https://twitter.com/?lang=es" class="icono icono_twitter" target="_blank"><img src="img/Entypo_f30a(5)_48.png"/></a>
+                        <a href="mailto:mdkjoel@hotmail.com" class="icono icono_mail"><img src="img/Entypo_2709(0)_48.png"/></a>
+                </div>
             </div>
                 
             <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
@@ -129,7 +150,7 @@
                         <p>...Aca va una breve descripcion de una habilidad (ejemplo, diagnostico y mantenimiento de PC)...</p>
                     </div>
             </div>
-        
+     
             <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
 
             <h4 class="btn_registro p">Registrate en ..., para poder acceder a tu cuenta.</h4>
@@ -148,6 +169,5 @@
 
             </section>
         </section>
-    
 </body>
 </html>
