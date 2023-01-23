@@ -308,32 +308,32 @@ video {
 
 /*MENU LATERAL DESPLEGABLE*/
 #sidebar {
-	top:25px;
+	margin: 0;
+	padding: 0;
 	position: fixed;
 	width: 200px;
-	height: auto;
-	background: linear-gradient(rgba(35, 70, 67, 0.801), rgba(19, 18, 18, 0.801));
+	height: 100%;
+	background: rgba(48, 54, 52, 0.87);
 	left:-200px;
 	transition: all, .5s linear;
-	border-radius: 0px 10px 10px 0px;
 }
 
-#sidebar.active {
+#sidebar .active {
 	left: 0;
 }
 
 #sidebar ul li{
-	color:rgba(255, 255, 255, 0.815);
-	text-align:left;
+	color:rgba(209, 222, 247, 0.815);
+	text-align: center;
 	padding: 15px 10px;
 	list-style: none;
-	border-bottom: 1px solid rgb(109, 185, 160);
+	border-bottom: 1px solid rgb(41, 40, 40);
 }
 
 #sidebar .toggle-btn{
 	position: absolute;
-	left: 210px;
-	top: 5px;
+	left: 230px;
+	top: 20px;
 	cursor:pointer;
 }
 
@@ -345,7 +345,7 @@ video {
 	border: 1px solid rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
 }
-/*FIN MENU DESPLEGABLE*/
+/*FIN MENU DEPLEGABLE*/
 
 
 
