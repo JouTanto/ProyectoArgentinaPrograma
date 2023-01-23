@@ -312,28 +312,29 @@ video {
 	padding: 0;
 	position: fixed;
 	width: 200px;
-	height: 100%;
-	background: rgba(48, 54, 52, 0.87);
+	height: auto;
+	background: linear-gradient(rgba(38, 105, 74, 0.815), rgba(0, 0, 0, 0.815));
 	left:-200px;
 	transition: all, .5s linear;
+	border-radius: 0px 20px 20px 0px;
 }
 
-#sidebar .active {
+#sidebar.active {
 	left: 0;
 }
 
 #sidebar ul li{
-	color:rgba(209, 222, 247, 0.815);
-	text-align: center;
+	color:rgba(255, 255, 255, 0.815);
+	text-align: left;
 	padding: 15px 10px;
 	list-style: none;
-	border-bottom: 1px solid rgb(41, 40, 40);
+	border-bottom: 1px solid rgb(77, 88, 88);
 }
 
 #sidebar .toggle-btn{
 	position: absolute;
-	left: 230px;
-	top: 20px;
+	left: 210px;
+	top: 5px;
 	cursor:pointer;
 }
 
