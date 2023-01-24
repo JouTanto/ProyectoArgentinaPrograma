@@ -25,9 +25,9 @@ h6 {color: hsl(0, 0%, 100%);
 
 /* DEFINE IMAGEN; HOVER Y DATOS*/
 .contenedor {
-	width: 480px;
-	height: 480px;
-	margin: auto;
+	width: 380px;
+	height: 380px;
+	margin: auto 65px 20px;
 	position: relative;
 	float: left;
 	overflow: hidden;
@@ -36,24 +36,24 @@ h6 {color: hsl(0, 0%, 100%);
 }
 
 .contenedor:hover img{
-	transform: scale(1.09);
+	transform: scale(1.4);
 	transition: all .5s;
 }
 
 .img_contenedor {
-	width: 100%;
-	min-width: 540px;
+	margin: auto -20px -20px -20px;
 }
 
 .texto_contenedor {
-	background-color: rgba(29, 41, 58, 0.801);
+	background: rgba(29, 41, 58,0.950);
 	position: absolute;
-	top:-95%;
-	left:70px;
+	top:-105%;
+	left:0px;
 	text-align:justify;
-	height:399px;
-	width: 399px;
+	height:380px;
+	width: 380px;
 	border-radius: 75px;
+	
 }
 
 .texto_contenedor h3 {
@@ -61,17 +61,19 @@ h6 {color: hsl(0, 0%, 100%);
 	font-size: 25px;
 	font-family: 'Arial';
 	font-style: italic;
-	padding: 5px 5px;
+	padding: 0px 5px 5px 10px;
 }
 
 .texto_contenedor p {
-	padding: 1px 5px 1px 5px;
+	text-align: justify;
+	font-size: 15px;
 	font-family: 'Arial';
 	font-style: italic;
+	padding: 0px 5px 5px 5px;
 }
 
 .contenedor:hover .texto_contenedor {
-	top:10px;
+	top:0px;
 	transition: all .5s;
 }
 /*FIN DE IMAGEN; HOVER Y DATOS*/
@@ -308,13 +310,14 @@ video {
 #sidebar {
 	margin: 0;
 	padding: 0;
+	top:65px;
 	position: fixed;
 	width: 200px;
 	height: auto;
 	background: linear-gradient(rgba(38, 59, 105, 0.8), rgb(17, 17, 17, 0.800));
 	left:-200px;
 	transition: all, .5s linear;
-	border-radius: 0px 20px 20px 0px;
+	border-radius: 0px 15px 15px 0px;
 }
 
 #sidebar.active {
@@ -323,31 +326,23 @@ video {
 
 #sidebar ul li{
 	margin: 0;
-	
 	color:rgba(255, 255, 255, 0.815);
 	text-align: left;
 	padding: 25px 10px;
 	list-style: none;
-	
-
-	background:rgba(8, 84, 156, 0.801);
-	
-	box-shadow: 2px 0px 5px rgb(0, 0, 0);
+	background:rgb(42, 42, 80, 0.800);
+	box-shadow: -2px 0px 5px rgb(0, 0, 0);
 }
 
 #sidebar ul li:hover {
 	margin: 0;
-	
-	color:rgba(255, 230, 0, 0.815);
+	color:rgba(255, 255, 255, 0.815);
 	text-align: left;
 	padding: 25px 10px;
 	list-style: none;
-
-	
-	background: rgba(109, 1, 1, 0.801);
-	
+	background: rgb(42, 80, 57, 0.800);
 	transition: all .5s;
-	box-shadow: 0px -2px 5px rgb(0, 0, 0);
+	box-shadow: -2px 0px 5px rgb(0, 0, 0);
 }
 
 #sidebar ul li:first-child {
@@ -369,7 +364,7 @@ video {
 #sidebar .toggle-btn{
 	position: absolute;
 	left: 210px;
-	top: 5px;
+	top: 0px;
 	cursor:pointer;
 }
 
