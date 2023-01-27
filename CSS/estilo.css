@@ -40,54 +40,6 @@ h6 {color: rgb(255, 255, 255);
 }
 /*FIN SECCION CONTENIDO*/
 
-/* DEFINE IMAGEN; HOVER Y DATOS*/
-.contenedor {
-	display:flex;
-	width: 380px;
-	height: 380px;
-	margin: auto 50px 20px;
-	position: relative;
-	float: left;
-	overflow: hidden;
-	
-	border-radius: 80px;
-}
-.contenedor:hover img{
-	transition: all .5s;
-}
-.img_contenedor {
-	margin: auto -20px -20px -20px;
-}
-.texto_contenedor {
-	background: rgba(29, 41, 58,0.950);
-	position: absolute;
-	top:-105%;
-	left:0px;
-	text-align:justify;
-	height:380px;
-	width: 380px;
-	border-radius: 75px;
-}
-.texto_contenedor h3 {
-	text-align: center;
-	font-size: 25px;
-	font-family: 'Arial';
-	font-style: italic;
-	padding: 0px 5px 5px 10px;
-}
-.texto_contenedor p {
-	text-align: justify;
-	font-size: 15px;
-	font-family: 'Arial';
-	font-style: italic;
-	padding: 0px 5px 5px 5px;
-}
-.contenedor:hover .texto_contenedor {
-	top:0px;
-	transition: all .5s;
-}
-/*FIN DE IMAGEN; HOVER Y DATOS*/
-
 /** DEFINE UN FORMULARIO*/
 .bg_form {
 	width: 400px;
@@ -158,7 +110,7 @@ h6 {color: rgb(255, 255, 255);
 .secsocial {
 		position:fixed;
 		right:0px;
-		top: 0px;
+		top: 50px;
 		font-size: 24px;
 		display:flex;
 		flex-direction: column;
@@ -255,6 +207,18 @@ video {
 	z-index:-1;
 }
 /*FIN VIDEO DE FONDO*/
+
+/*TEXTO*/
+.contenedor_texto{
+	width: 70%;
+	margin: 5px 5px 15px 5px;
+	padding: 5px 5px 5px 5px;
+	text-align: justify;
+	background: linear-gradient(rgba(38, 84, 105, 0.8), rgba(19, 30, 36, 0.8));
+	border-radius: 20px;
+	box-shadow: 0px -1px 10px rgb(255, 255, 255);
+}
+/*FIN TEXTo*/
 
 /*MENU LATERAL DESPLEGABLE*/
 #sidebar {
