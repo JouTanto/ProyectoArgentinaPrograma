@@ -148,7 +148,7 @@ h6 {color: rgb(255, 255, 255);
 }
 /*FIN SECCION REDES SOCIALES*/
 
-/*DEFINE CUSTOMIZACION FOTO RETRATO*/
+/*DEFINE FOTO RETRATO*/
 .contenedor_retrato {
 	display:flex;
 	width: 300px;
@@ -163,7 +163,7 @@ h6 {color: rgb(255, 255, 255);
 	min-width: 224px;
 	border-radius: 50px;
 }
-/*FIN CUSTOMIZACION FOTO RETRATO*/
+/*FIN FOTO RETRATO*/
 
 /*DEFINE TUTULO A UN LADO DEL RETRATO*/
 .titulo_cont {
@@ -229,7 +229,7 @@ video {
 	box-shadow: 0px -1px 10px rgb(255, 255, 255);
 	font-size: 20px;
 }
-/*FIN TEXTo*/
+/*FIN TEXTO*/
 
 /*MENU LATERAL DESPLEGABLE*/
 #sidebar {
@@ -294,206 +294,3 @@ video {
 	color: rgb(255, 255, 255);
 }
 /*FIN MENU DESPLEGABLE*/
-
-
-
-/*MEDIA*/
-/*A continuación, dejo un comentario referente a adaptar mi pagina web o hacerla responsive, 
-es algo que me esta costando hacer, pero voy a seguir investigando y 
-probando opciones para hacer una web responsive.*/
-    
-@media only screen and (max-width: 1024px) {
-	.bg_section { 
-		width:90%;
-		height: auto;
-	}
-	.img_contenedor {
-		width:100%;
-		height: auto;
-	}
-	.linea_img { 
-		width:100%;
-		height: auto;
-	}
-}
-
-/*PARA TABLETS 1024PX*/
-@media only screen and (max-width: 1024px) {
-	.bg_section {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
-		margin: auto;
-		margin-top: 25px;
-		margin-bottom: 25px;
-		padding: 5px 5px 5px 5px;
-		width: 95%;
-		height: auto;
-		box-shadow: 0px -1px 15px rgb(255 255 255 / 72%);
-		border-radius: 45px;
-	}
-	.contenedor { 
-		display: flex;
-		flex-direction: column;
-		margin: 15px 5px 0px 5px;
-		border: 0px solid;
-		width: auto;
-		height: 95%;
-		align-items: center;
-		border-radius: 50px;
-	}
-	.img_contenedor{
-		width: auto;
-		height: auto;
-		display: contents;
-		border-radius: 60px;
-	}
-	.texto_contenedor{
-		width: 365px;
-		height: 365px;
-		top: 28px;
-		margin: auto 26px auto;
-		border-radius: 62px;
-	}
-	.texto_contenedor p{
-		width:auto;
-		height: auto;
-	}
-}
-/*FIN TABLETS 1024PX*/
-
-/*PARA TABLETS 834PX*/
-@media only screen and (max-width: 834px) {
-	.bg_section {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
-		margin: auto;
-		margin-top: 25px;
-		margin-bottom: 25px;
-		padding: 5px 5px 5px 5px;
-		width: 95%;
-		height: auto;
-		box-shadow: 0px -1px 15px rgb(255 255 255 / 72%);
-		border-radius: 45px;
-	}
-	.contenedor { 
-		display: flex;
-		flex-direction: column;
-		margin: 15px 5px 0px 5px;
-		border: 0px solid;
-		width: auto;
-		height: 95%;
-		align-items: center;
-		border-radius: 50px;
-	}
-	.img_contenedor{
-		width: auto;
-		height: auto;
-		display: contents;
-		border-radius: 60px;
-	}
-	.texto_contenedor{
-		width: 365px;
-		height: 365px;
-		top: 28px;
-		margin: auto 27px auto;
-		border-radius: 62px;
-	}
-	.texto_contenedor p{
-		width:auto;
-		height: auto;
-	}
-}
-/*FIN TABLETS 834PX*/
-
-/*PARA CELULARES 412PX*/
-@media only screen and (max-width: 412px) {
-	.bg_section {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		justify-content: center;
-		background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
-		margin: auto;
-		margin-top: 25px;
-		margin-bottom: 25px;
-		padding: 5px 5px 5px 5px;
-		width: 95%;
-		height: auto;
-		box-shadow: 0px -1px 15px rgb(255 255 255 / 72%);
-		border-radius: 45px;
-	}
-	.contenedor { 
-		display: flex;
-		flex-direction: column;
-		margin: 15px 5px 0px 5px;
-		border: 0px solid;
-		width: auto;
-		height: 95%;
-		align-items: center;
-		border-radius: 50px;
-	}
-	.contenedor:hover .texto_contenedor{
-		display:block;
-	}
-	.img_contenedor{
-		width: auto;
-		height: auto;
-		display: contents;
-		border-radius: 60px;
-	}
-	.texto_contenedor{
-		width: 365px;
-		height: 365px;
-		top: 28px;
-		margin: auto 3px auto;
-		border-radius: 62px;
-		transform: none;
-	}
-	.texto_contenedor p{
-		width:auto;
-		height: auto;
-	}
-	.titulo_cont { 
-		display: flex;
-    	flex-direction: column;
-    	width: 100%;
-    	height: 70%;
-    	padding: 1px 1px 1px 1px;
-    	margin: 1px 1px 1px 1px;
-	}
-	.img_retrato{
-		width:100%;
-		height: auto;
-	}
-	.contenedor_retrato{
-		width: 70%;
-		height: 60%;
-		margin: 10px 10px 10px 10px;
-	}
-	.img_contenedor{
-		width:50%;
-		height: 50%;
-	}
-	.secsocial{
-		width:100%;
-		height: auto;
-		font-size: 40%;
-	}
-	.bg_form{
-		width: 75%;
-		height: auto;
-		z-index: 1;
-		border-radius: 30px;
-	}
-	.texto_cont{
-		margin: 10px 10px 10px 10px;
-    	font-size: 40px;
-	}
-}
-/*FIN CELULARS*/
