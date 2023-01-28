@@ -4,26 +4,22 @@ es algo que me esta costando hacer, pero voy a seguir investigando y
 probando opciones para hacer una web responsive.*/
     
 @media only screen and (max-width: 600px) {
-    .bg_section {
+.bg_section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 95%;
     height: auto;
-    box-shadow: 0px -1px 15px rgb(255 255 255 / 72%);
-    border-radius: 25px;
 }
 .titulo_cont {
     display: flex;
     float: left;
     width: 95%;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
@@ -34,7 +30,6 @@ probando opciones para hacer una web responsive.*/
     height: 90%;
     margin: 20px 5px 5px 5px;
     position: relative;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
 }
 .img_retrato {
@@ -50,9 +45,6 @@ probando opciones para hacer una web responsive.*/
     padding: 1px 15px 1px 1px;
     margin: auto;
     margin-top: 50px;
-    font-family: 'Tangerine', cursive;
-    text-decoration: 3px underline;
-    text-decoration-color: rgb(0, 114, 190);
 }
 .secsocial {
     position: fixed;
@@ -71,26 +63,22 @@ probando opciones para hacer una web responsive.*/
 }
 
 @media only screen and (min-width: 600px) {
-    .bg_section {
+.bg_section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 95%;
     height: auto;
-    box-shadow: 0px -1px 15px rgb(255 255 255 / 72%);
-    border-radius: 25px;
 }
 .titulo_cont {
     display: flex;
     float: left;
     width: 95%;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
@@ -101,7 +89,6 @@ probando opciones para hacer una web responsive.*/
     height: 90%;
     margin: 20px 5px 5px 5px;
     position: relative;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
 }
 .img_retrato {
@@ -117,9 +104,6 @@ probando opciones para hacer una web responsive.*/
     padding: 1px 10px 1px 1px;
     margin: auto;
     margin-top: 100px;
-    font-family: 'Tangerine', cursive;
-    text-decoration: 3px underline;
-    text-decoration-color: rgb(0, 114, 190);
 }
 .secsocial {
     position: fixed;
@@ -138,26 +122,22 @@ probando opciones para hacer una web responsive.*/
 }
 
 @media only screen and (min-width: 768px) {
-    .bg_section {
+.bg_section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 95%;
     height: auto;
-    box-shadow: 0px -1px 15px rgb(255 255 255 / 72%);
-    border-radius: 25px;
 }
 .titulo_cont {
     display: flex;
     float: left;
     width: 70%;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
@@ -168,7 +148,6 @@ probando opciones para hacer una web responsive.*/
     height: 90%;
     margin: 20px 5px 5px 5px;
     position: relative;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
 }
 .img_retrato {
@@ -184,9 +163,6 @@ probando opciones para hacer una web responsive.*/
     padding: 1px 10px 1px 1px;
     margin: auto;
     margin-top: 120px;
-    font-family: 'Tangerine', cursive;
-    text-decoration: 3px underline;
-    text-decoration-color: rgb(0, 114, 190);
 }
 .secsocial {
     position: fixed;
@@ -205,26 +181,22 @@ probando opciones para hacer una web responsive.*/
 }
 
 @media only screen and (min-width: 996px) {
-    .bg_section {
+.bg_section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 95%;
     height: auto;
-    box-shadow: 0px -1px 15px rgb(255 255 255 / 72%);
-    border-radius: 25px;
 }
 .titulo_cont {
     display: flex;
     float: left;
     width: 70%;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
@@ -235,7 +207,6 @@ probando opciones para hacer una web responsive.*/
     height: 90%;
     margin: 20px 5px 5px 5px;
     position: relative;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
 }
 .img_retrato {
@@ -251,9 +222,6 @@ probando opciones para hacer una web responsive.*/
     padding: 1px 10px 1px 1px;
     margin: auto;
     margin-top: 120px;
-    font-family: 'Tangerine', cursive;
-    text-decoration: 3px underline;
-    text-decoration-color: rgb(0, 114, 190);
 }
 .secsocial {
     position: fixed;
@@ -272,26 +240,22 @@ probando opciones para hacer una web responsive.*/
 }
 
 @media only screen and (min-width: 1200px) {
-    .bg_section {
+.bg_section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background: linear-gradient(rgba(16, 21, 29, 0.815), rgba(40, 48, 63, 0.815));
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 1024px;
     height: auto;
-    box-shadow: 0px -1px 15px rgb(255 255 255 / 72%);
-    border-radius: 25px;
 }
 .titulo_cont {
     display: flex;
     float: left;
     width: 70%;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
@@ -302,7 +266,6 @@ probando opciones para hacer una web responsive.*/
     height: 90%;
     margin: 20px 5px 5px 5px;
     position: relative;
-    box-shadow: 0px -2px 10px rgb(52 110 106);
     border-radius: 20px;
 }
 .img_retrato {
@@ -318,9 +281,6 @@ probando opciones para hacer una web responsive.*/
     padding: 1px 10px 1px 1px;
     margin: auto;
     margin-top: 120px;
-    font-family: 'Tangerine', cursive;
-    text-decoration: 3px underline;
-    text-decoration-color: rgb(0, 114, 190);
 }
 .secsocial {
     position: fixed;
