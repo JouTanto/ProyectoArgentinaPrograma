@@ -1,8 +1,5 @@
 /*MEDIA*/
-/*A continuación, dejo un comentario referente a adaptar mi pagina web o hacerla responsive, 
-es algo que me esta costando hacer, pero voy a seguir investigando y 
-probando opciones para hacer una web responsive.*/
-    
+
 @media only screen and (max-width: 600px) {
 .bg_section {
     display: flex;
