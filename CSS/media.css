@@ -1,12 +1,10 @@
-/*MEDIA*/
-
+/*MAX-WIDTH 600PX*/
 @media only screen and (max-width: 600px) {
 .bg_section {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 95%;
-    height: auto;
 }
 .titulo_cont {
     width: 95%;
@@ -41,13 +39,13 @@
 }
 }
 
+/*MIN-WIDHT 600PX*/
 @media only screen and (min-width: 600px) {
 .bg_section {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 95%;
-    height: auto;
 }
 .titulo_cont {
     width: 95%;
@@ -82,13 +80,13 @@
 }
 }
 
+/*MIN-WIDTH 768PX*/
 @media only screen and (min-width: 768px) {
 .bg_section {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 95%;
-    height: auto;
 }
 .titulo_cont {
     width: 70%;
@@ -123,13 +121,13 @@
 }
 }
 
+/*MIN WIDTH 996PX*/
 @media only screen and (min-width: 996px) {
 .bg_section {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 95%;
-    height: auto;
 }
 .titulo_cont {
     width: 70%;
@@ -164,13 +162,13 @@
 }
 }
 
+/*MIN WIDTH 1200PX*/
 @media only screen and (min-width: 1200px) {
 .bg_section {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
     width: 1024px;
-    height: auto;
 }
 .titulo_cont {
     width: 90%;
