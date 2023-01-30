@@ -2,11 +2,6 @@
 
 @media only screen and (max-width: 600px) {
 .bg_section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
@@ -14,19 +9,15 @@
     height: auto;
 }
 .titulo_cont {
-    display: flex;
-    float: left;
     width: 95%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
 .contenedor_retrato {
-    display: flex;
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
-    position: relative;
     border-radius: 20px;
 }
 .img_retrato {
@@ -35,37 +26,23 @@
     border-radius: 20px;
 }
 .texto_cont {
-    display: flex;
     font-size: 35px;
-    text-align: center;
-    width: px;
     padding: 1px 15px 1px 1px;
     margin: auto;
     margin-top: 40px;
 }
 .secsocial {
-    position: fixed;
     left: 350px;
     top: 300px;
     font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 .linea_img {
     width: 100%;
-    background-position: center;
-    padding-top: 25px;
 }
 }
 
 @media only screen and (min-width: 600px) {
 .bg_section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
@@ -73,19 +50,15 @@
     height: auto;
 }
 .titulo_cont {
-    display: flex;
-    float: left;
     width: 95%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
 .contenedor_retrato {
-    display: flex;
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
-    position: relative;
     border-radius: 20px;
 }
 .img_retrato {
@@ -94,37 +67,23 @@
     border-radius: 20px;
 }
 .texto_cont {
-    display: flex;
     font-size: 45px;
-    text-align: center;
-    width: px;
     padding: 1px 10px 1px 1px;
     margin: auto;
     margin-top: 50px;
 }
 .secsocial {
-    position: fixed;
     left: 350px;
     top: 200px;
     font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 .linea_img {
     width: 100%;
-    background-position: center;
-    padding-top: 25px;
 }
 }
 
 @media only screen and (min-width: 768px) {
 .bg_section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
@@ -132,19 +91,15 @@
     height: auto;
 }
 .titulo_cont {
-    display: flex;
-    float: left;
     width: 70%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
 .contenedor_retrato {
-    display: flex;
     width: 70%;
     height: 90%;
     margin: 10px 5px 15px 5px;
-    position: relative;
     border-radius: 20px;
 }
 .img_retrato {
@@ -153,37 +108,23 @@
     border-radius: 20px;
 }
 .texto_cont {
-    display: flex;
     font-size: 55px;
-    text-align: center;
-    width: px;
     padding: 1px 10px 1px 1px;
     margin: auto;
     margin-top: 35px;
 }
 .secsocial {
-    position: fixed;
     left: 350px;
     top: 150px;
     font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 .linea_img {
     width: 100%;
-    background-position: center;
-    padding-top: 25px;
 }
 }
 
 @media only screen and (min-width: 996px) {
 .bg_section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
@@ -191,19 +132,15 @@
     height: auto;
 }
 .titulo_cont {
-    display: flex;
-    float: left;
     width: 70%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
 .contenedor_retrato {
-    display: flex;
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
-    position: relative;
     border-radius: 20px;
 }
 .img_retrato {
@@ -212,37 +149,23 @@
     border-radius: 20px;
 }
 .texto_cont {
-    display: flex;
     font-size: 55px;
-    text-align: center;
-    width: px;
     padding: 1px 10px 1px 1px;
     margin: auto;
     margin-top: 35px;
 }
 .secsocial {
-    position: fixed;
     left: 350px;
     top: 100px;
     font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 .linea_img {
     width: 100%;
-    background-position: center;
-    padding-top: 25px;
 }
 }
 
 @media only screen and (min-width: 1200px) {
 .bg_section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 10px 10px 10px 10px;
@@ -250,19 +173,15 @@
     height: auto;
 }
 .titulo_cont {
-    display: flex;
-    float: left;
     width: 90%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
 .contenedor_retrato {
-    display: flex;
     width: 90%;
     height: 90%;
     margin: 20px 5px 5px 5px;
-    position: relative;
     border-radius: 20px;
 }
 .img_retrato {
@@ -271,26 +190,17 @@
     border-radius: 20px;
 }
 .texto_cont {
-    display: flex;
     font-size: 55px;
-    text-align: center;
-    width: px;
     padding: 1px 10px 1px 1px;
     margin: auto;
     margin-top: 120px;
 }
 .secsocial {
-    position: fixed;
     left: 350px;
     top: 50px;
     font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
 }
 .linea_img {
     width: 100%;
-    background-position: center;
-    padding-top: 25px;
 }
 }
