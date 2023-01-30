@@ -252,14 +252,14 @@
 .titulo_cont {
     display: flex;
     float: left;
-    width: 70%;
+    width: 90%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
 .contenedor_retrato {
     display: flex;
-    width: 70%;
+    width: 90%;
     height: 90%;
     margin: 20px 5px 5px 5px;
     position: relative;
