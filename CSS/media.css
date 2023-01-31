@@ -37,6 +37,11 @@
 .linea_img {
     width: 100%;
 }
+.habilidades {
+    width: 100%;
+    max-width: 500px;
+    padding: 0 0px;
+}
 }
 
 /*MIN-WIDHT 600PX*/
