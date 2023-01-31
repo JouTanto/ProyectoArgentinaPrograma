@@ -18,7 +18,7 @@
 }
 .habil_per{
     height: 14px;
-    background: linear-gradient(rgb(0, 19, 43), rgb(0, 52, 112));
+    background:rgb(112, 0, 0);
     border-radius: 3px;
     position: relative;
     animation: fillbars 3.5s 1;
