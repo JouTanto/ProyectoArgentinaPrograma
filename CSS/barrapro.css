@@ -1,0 +1,61 @@
+.habilidades{
+    width: 100%;
+    max-width: 630px;
+    padding: 0 40px;
+}
+
+.habil_nombre{
+    font-size: 18px;
+    font-weight: 700;
+    color: #f1f1f1;
+    text-transform: uppercase;
+    margin: 35px 0;
+}
+
+.habil_barra{
+    height: 14px;
+    background: #282828;
+    border-radius: 3px;
+}
+
+.habil_per{
+    height: 14px;
+    background: linear-gradient(rgb(0, 19, 43), rgb(0, 67, 143));
+    border-radius: 3px;
+    position: relative;
+    animation: fillbars 2.5s 1;
+    box-shadow: 0px 0px 5px #f1f1f1;
+}
+
+.habil_per::before{
+    content: attr(per);
+    position: absolute;
+    padding: 4px 6px;
+    background: #f1f1f1;
+    border-radius: 3px;
+    font-size: 12px;
+    top: -35px;
+    right: 0;
+    transform: translateX(50%);
+}
+
+.habil_per::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #f1f1f1;
+    top: -20px;
+    right: 0;
+    transform: translateX(50%) rotate(45deg);
+    border-radius: 2px;
+}
+
+@keyframes fillbars{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
+}
