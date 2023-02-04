@@ -49,7 +49,7 @@ h6 {color: rgb(255, 255, 255);
 /** DEFINE UN FORMULARIO*/
 .bg_form {
 	width: 400px;
-	background: linear-gradient(rgba(35, 70, 67, 0.801), rgba(0, 0, 0, 0.801));
+	background: linear-gradient(rgba(35, 70, 67), rgba(0, 0, 0));
 	padding: 30px;
 	margin: auto;
 	margin-top: 20px;
