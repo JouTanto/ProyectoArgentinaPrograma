@@ -230,7 +230,7 @@ video {
 	margin: 5px 5px 15px 5px;
 	padding: 5px 5px 5px 5px;
 	text-align: justify;
-	background: linear-gradient(rgba(38, 84, 105, 0.8), rgba(19, 30, 36, 0.8));
+	background: linear-gradient(rgb(29, 33, 49), rgb(14, 20, 24));
 	border-radius: 20px;
 	box-shadow: 0px -1px 10px rgb(255, 255, 255);
 	font-size: 20px;
