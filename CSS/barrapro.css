@@ -3,13 +3,18 @@
     max-width: 650px;
     padding: auto 30px;
 }
-.habil_nombre{
-    font-size: 18px;
-    font-weight: 700;
-    color: #f1f1f1;
-    text-transform: uppercase;
-    margin: 25px 5px 35px 65px;
+#html{
+    margin: 1px 1px 10px 50px;
 }
+
+#css{
+    margin: 1px 1px 10px 50px;
+}
+
+#js{
+    margin: 1px 1px 10px 50px;
+}
+
 .habil_barra{
     height: 14px;
     background: #282828;
