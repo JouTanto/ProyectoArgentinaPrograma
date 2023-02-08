@@ -247,7 +247,7 @@ video {
 	position: fixed;
 	width: 200px;
 	height: auto;
-	background: linear-gradient(rgba(38, 59, 105, 0.8), rgb(17, 17, 17, 0.800));
+	background: rgba(35, 40, 49, 0.9);
 	left:-200px;
 	transition: all, .5s linear;
 	border-radius: 0px 15px 15px 0px;
@@ -264,7 +264,7 @@ video {
 }
 
 #sidebar p:hover{
-	color:rgb(0, 255, 255);
+	color:rgb(127, 181, 252);
 	text-decoration: none;
 	text-align: left;
 }
@@ -276,7 +276,7 @@ video {
 }
 
 #sidebar a:hover{
-	color:rgb(0, 255, 255);
+	color:rgb(127, 181, 252);
 	text-decoration: none;
 	text-align: left;
 }
@@ -288,8 +288,8 @@ video {
 	font-family: 'Righteous', cursive;
 	padding: 25px 10px;
 	list-style: none;
-	background:rgb(42, 42, 80, 0.800);
-	box-shadow: -2px 0px 5px rgb(0, 0, 0);
+	background:rgb(42, 42, 80, 0.95);
+	box-shadow: -3px 0px 5px rgb(0, 0, 0);
 }
 #sidebar ul li:hover {
 	margin: 0;
@@ -298,9 +298,9 @@ video {
 	font-family: 'Righteous', cursive;
 	padding: 25px 10px;
 	list-style: none;
-	background: rgb(42, 80, 57, 0.800);
+	background: rgba(42, 80, 80, 0.8);
 	transition: all .5s;
-	box-shadow: -2px 0px 5px rgb(0, 0, 0);
+	box-shadow: -3px 0px 5px rgb(255, 255, 255);
 }
 #sidebar ul li:first-child {
 	border-radius: 10px 0px 0px 00px;
