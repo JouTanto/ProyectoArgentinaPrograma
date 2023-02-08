@@ -254,13 +254,18 @@ video {
 #sidebar.active {
 	left: 0;
 }
-#sidebar a{
+
+#sidebar a p{
 	color:white;
 	text-decoration: none;
+	text-align: left;
+	
 }
-#sidebar a:hover{
+#sidebar a p:hover{
 	color:rgb(0, 255, 255);
 	text-decoration: underline;
+	text-align: left;
+	
 }
 #sidebar ul li{
 	margin: 0;
@@ -308,5 +313,27 @@ video {
 	font-size: 30px;
 	border: 1px solid rgb(255, 255, 255);
 	color: rgb(255, 255, 255);
+}
+
+#Home{
+	float: left;
+}
+
+#Imagenes{
+	float: left;
+}
+
+/* PARA MODIFICAR
+#Texto{
+	float: left;
+}
+
+#Texto{
+	float: left;
+}
+FIN MODIFICAR*/
+
+#Info{
+	float: left;
 }
 /*FIN MENU DESPLEGABLE*/
