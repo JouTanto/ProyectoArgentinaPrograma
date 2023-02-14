@@ -3,7 +3,7 @@
 
 /*DEFINE EL CUERPO, TEXTO Y TITULOS*/
 body {
-	background-color: rgb(0, 0, 0);
+	background: #000000;
 	display:flex;
 	flex-direction: column;
 	margin: 5px 5px 5px 5px;
@@ -111,6 +111,26 @@ h6 {color: rgb(255, 255, 255);
 	font-size: 16px;
 }
 /*FIN DE FORMULARIO*/
+
+/* PARA LOS ICONOS DE TERCEROS*/
+.iconos p{
+	height: 40px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 40px;
+	font-family: 'arial';
+}
+
+.iconos a{
+	color:rgb(3, 146, 110);
+	text-decoration: none;
+}
+
+.iconos a:hover{
+	color:rgb(255, 0, 0);
+	text-decoration: none;
+}
+/*FIN ICONOS DE TERCEROS*/
 
 /*DEFINE SECCION REDES SOCIALES*/
 .secsocial {
