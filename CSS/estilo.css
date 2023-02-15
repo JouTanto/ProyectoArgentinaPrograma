@@ -46,7 +46,7 @@ h6 {color: rgb(255, 255, 255);
 }
 /*FIN SECCION CONTENIDO*/
 
-/** DEFINE UN FORMULARIO*/
+/** DEFINE UN FORMULARIO
 .bg_form {
 	width: 400px;
 	background: linear-gradient(rgba(35, 70, 67), rgba(0, 0, 0));
@@ -110,7 +110,7 @@ h6 {color: rgb(255, 255, 255);
 	margin: 16px 0;
 	font-size: 16px;
 }
-/*FIN DE FORMULARIO*/
+FIN DE FORMULARIO*/
 
 /* PARA LOS ICONOS DE TERCEROS*/
 .iconos p{
