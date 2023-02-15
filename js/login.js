@@ -14,7 +14,7 @@ function loguear()
 {
     let user=document.getElementById('usuario').value;
     let pass=document.getElementById('contraseña').value;
-    if(user == "mdkjoel@hotmail.com" && pass == "JouTanto39")
+    if(user == "mdkjoel@hotmail.com" && pass == "123456789")
     {
         window.location="index.html";
     } else {
