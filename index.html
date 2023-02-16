@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Home - Proyecto Joel</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
     <link rel="icon" href="img/icon3.ico">
     <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
     <link rel="stylesheet" type="text/css" href="CSS/media.css">
@@ -13,117 +19,139 @@
     <script defer src="js/menu.js"></script>
     <script src="https://kit.fontawesome.com/440bac5161.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
-    <!--ACA BARRA-->
-    <div id="sidebar">
-        <div class="toggle-btn">
-            <span>&#9776;</span>
+    <!--INICIO MENU DESPLEGABLE-->
+    <aside class="aside active" id="aside">
+        <div class="head">
+            <div class="profile">
+                <img src="img/user.ico" >
+                <p>Menu</p>
+            </div>
+            <i class='bx bx-menu' id="menu"></i>
         </div>
-        <ul>
-            <li>
-                <img id="Home" src="img/home.ico">
-                    <a href="index.html"><p>Home</p></a>
-            </li>
-            <li>
-                <img id="Imagenes" src="img/image.ico">
-                    <a href="imagenes.html"><p>Imagenes</p></a>
-            </li>
-            <li>
-                <img id="Imagenes" src="img/workflow-4131.ico">
-                    <a href="#"><p>Texto</p></a>
-            </li>
-            <li>
-                <img id="Imagenes" src="img/workflow-4131.ico">
-                    <a href="#"><p>Texto</p></a>
-            </li>
-            <li>
-                <img id="Info" src="img/info.ico">
-                    <a href="info.html"><p>Info</p></a>
-            </li>
-        </ul>
-    </div>
-    <!--FIN BARRA-->
+        <div class="options">
+            <div>
+                <i class='bx bxs-dashboard' ></i>
+                <span class="option">Dashboard</span>
+            </div>
+            <div>
+                <i class='bx bx-user' ></i>
+                <span class="option">Usuario</span>
+            </div>
+            <div>
+                <i class='bx bx-line-chart'></i>
+                <span class="option">Analisis</span>
+            </div>
+            <div>
+                <i class='bx bx-message-square'></i>
+                <span class="option">Mensaje</span>
+            </div>
+            <div>
+                <i class='bx bx-file-blank'></i>
+                <span class="option">Archivo</span>
+            </div>
+            <div>
+                <i class='bx bx-cart' ></i>
+                <span class="option">Compras</span>
+            </div>
+            <div>
+                <i class='bx bx-heart' ></i>
+                <span class="option">Favoritos</span>
+            </div>
+            <div>
+                <i class='bx bx-cog'></i>
+                <span class="option">Configuracion</span>
+            </div>
+        </div>
+    </aside>
+    <!--FIN MENU DESPLEGABLE-->
     <!--ACA FONDO-->
-        <video onloadedmetadata="this.muted=true" autoplay loop muted>
-            <source src="img/vecteezy_cinematic-background-with-particles-abstract-motion-of_7634675_405.mp4" codecs="avc1,mp4a"/>
-        </video>
+    <video onloadedmetadata="this.muted=true" autoplay loop muted>
+        <source src="img/vecteezy_cinematic-background-with-particles-abstract-motion-of_7634675_405.mp4"
+            codecs="avc1,mp4a" />
+    </video>
     <!--FIN FONDO-->
     <!--ACA SECCION CONTENEDORA-->
     <section class="bg_section">
-            <!--ACA TITULO, RETRATO-->
-            <div class="titulo_cont">
-                <div class="contenedor_retrato">
-                    <img class="img_retrato" src="img/IMG_20230130_091739769.jpg"/>
-                </div>
-                    <h1 class="texto_cont">CV de Joel Emmanuel Orellana</h1>
-    <!--ACA REDES SOCIALES-->
-                <div class="secsocial">
-                        <a href="https://www.instagram.com/" class="icono icono_instagram" target="_blank"><img src="img/circle-instagram-icon-8324.ico"/></a>
-                        <a href="https://github.com/JouTanto/ProyectoArgentinaPrograma" class="icono icono_github" target="_blank"><img src="img/circle-github-icon-8308.ico"/></a>
-                        <a href="https://www.facebook.com/" class="icono icono_facebook" target="_blank"><img src="img/circle-facebook-icon-8300.ico"></a>
-                        <a href="https://twitter.com/?lang=es" class="icono icono_twitter" target="_blank"><img src="img/circle-twitter-icon-8380.ico"/></a>
-                        <a href="mailto:mdkjoel@hotmail.com" class="icono icono_mail"><img src="img/mail.ico"/></a>
-                </div>
-    <!--FIN REDES SOCIALES-->
+        <!--ACA TITULO, RETRATO-->
+        <div class="titulo_cont">
+            <div class="contenedor_retrato">
+                <img class="img_retrato" src="img/IMG_20230130_091739769.jpg" />
             </div>
-    <!--FIN TITULO, RETRATO-->
+            <h1 class="texto_cont">CV de Joel Emmanuel Orellana</h1>
+            <!--ACA REDES SOCIALES-->
+            <div class="secsocial">
+                <a href="https://www.instagram.com/" class="icono icono_instagram" target="_blank"><img
+                        src="img/circle-instagram-icon-8324.ico" /></a>
+                <a href="https://github.com/JouTanto/ProyectoArgentinaPrograma" class="icono icono_github"
+                    target="_blank"><img src="img/circle-github-icon-8308.ico" /></a>
+                <a href="https://www.facebook.com/" class="icono icono_facebook" target="_blank"><img
+                        src="img/circle-facebook-icon-8300.ico"></a>
+                <a href="https://twitter.com/?lang=es" class="icono icono_twitter" target="_blank"><img
+                        src="img/circle-twitter-icon-8380.ico" /></a>
+                <a href="mailto:mdkjoel@hotmail.com" class="icono icono_mail"><img src="img/mail.ico" /></a>
+            </div>
+            <!--FIN REDES SOCIALES-->
+        </div>
+        <!--FIN TITULO, RETRATO-->
         <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
-    <!--ACA CONTENEDORES DATOS-->
-                <div class="contenedor_texto">
-                    <div class="titulo_datos">
-                        <h3>Datos Personales</h3>
-                    </div>
-                        <p>Nací en la ciudad de Gualeguaychú, provincia de Entre Ríos</p>
-                        <p>El 9 de febrero de 1984</p>
-                        <p>Actualmente vivo en la ciudad de Esquel, provincia del Chubut</p>
+        <!--ACA CONTENEDORES DATOS-->
+        <div class="contenedor_texto">
+            <div class="titulo_datos">
+                <h3>Datos Personales</h3>
+            </div>
+            <p>Nací en la ciudad de Gualeguaychú, provincia de Entre Ríos</p>
+            <p>El 9 de febrero de 1984</p>
+            <p>Actualmente vivo en la ciudad de Esquel, provincia del Chubut</p>
+        </div>
+        <div class="contenedor_texto">
+            <div class="titulo_datos">
+                <h3>Educación</h3>
+            </div>
+            <p>Escuela Primaria: Esc. Provincial N° 179</p>
+            <p>Escuela Secundaria: Esc. Provincial N° 713</p>
+        </div>
+        <div class="contenedor_texto">
+            <div class="titulo_datos">
+                <h3>Experiencia</h3>
+            </div>
+            <p>2002 - Playero en una YPF</p>
+            <p>2005 a la fecha - Personal de la P.S.A.</p>
+        </div>
+        <div class="contenedor_texto">
+            <div class="titulo_datos">
+                <h3>Habilidades y Cursos</h3>
+            </div>
+            <p>Curso en Diagnostico y mantenimiento de PCs</p>
+            <p>Curso en Diseño Web</p>
+        </div>
+        <div class="contenedor_texto">
+            <div class="habilidades">
+                <img id="html" src="img/html-file-2074.ico">
+                <div class="habil_nombre"></div>
+                <div class="habil_barra">
+                    <div class="habil_per" per="50,3%" style="max-width:50.3%"></div>
                 </div>
-                <div class="contenedor_texto">
-                    <div class="titulo_datos">
-                        <h3>Educación</h3>
-                    </div>
-                        <p>Escuela Primaria: Esc. Provincial N° 179</p>
-                        <p>Escuela Secundaria: Esc. Provincial N° 713</p>
+            </div>
+            <div class="habilidades">
+                <img id="css" src="img/css-file-2077.ico">
+                <div class="habil_nombre"></div>
+                <div class="habil_barra">
+                    <div class="habil_per" per="49%" style="max-width:49%"></div>
                 </div>
-                <div class="contenedor_texto">
-                    <div class="titulo_datos">
-                        <h3>Experiencia</h3>
-                    </div>
-                        <p>2002 - Playero en una YPF</p>
-                        <p>2005 a la fecha - Personal de la P.S.A.</p>
+            </div>
+            <div class="habilidades">
+                <img id="js" src="img/js-file-2079.ico">
+                <div class="habil_nombre"></div>
+                <div class="habil_barra">
+                    <div class="habil_per" per="0,7%" style="max-width:0.7%"></div>
                 </div>
-                <div class="contenedor_texto">
-                    <div class="titulo_datos">
-                        <h3>Habilidades y Cursos</h3>
-                    </div>
-                        <p>Curso en Diagnostico y mantenimiento de PCs</p>
-                        <p>Curso en Diseño Web</p>
-                </div>
-                <div class="contenedor_texto">
-                        <div class="habilidades">
-                            <img id="html" src="img/html-file-2074.ico">
-                            <div class="habil_nombre"></div>
-                                <div class="habil_barra">
-                                    <div class="habil_per" per="50,3%" style="max-width:50.3%"></div>
-                                </div>
-                        </div>
-                        <div class="habilidades">
-                            <img id="css" src="img/css-file-2077.ico">
-                            <div class="habil_nombre"></div>
-                                <div class="habil_barra">
-                                    <div class="habil_per" per="49%" style="max-width:49%"></div>
-                                </div>
-                        </div>
-                        <div class="habilidades">
-                            <img id="js" src="img/js-file-2079.ico">
-                            <div class="habil_nombre"></div>
-                                <div class="habil_barra">
-                                    <div class="habil_per" per="0,7%" style="max-width:0.7%"></div>
-                                </div>
-                        </div>
-                </div>
-    <!--FIN CONTENEDORES DATOS-->
-        
-        
+            </div>
+        </div>
+        <!--FIN CONTENEDORES DATOS-->
+
+
         <!--
             
             <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
@@ -140,9 +168,10 @@
             </form>
         
         -->
-            
-            
+
+
     </section>
     <!--FIN SECCION CONTENEDORA-->
 </body>
+
 </html>
