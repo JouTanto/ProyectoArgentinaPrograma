@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>Galeria de Imagenes</title>
-    <link rel="icon" href="img/icon3.ico">
-    <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
-    <link rel="stylesheet" type="text/css" href="CSS/media.css">
-    <link rel="stylesheet" type="text/css" href="CSS/imagen.css">
-    <link rel="stylesheet" type="text/css" href="CSS/barrapro.css">
-    <script defer src="js/menu.js"></script>
-    <script src="https://kit.fontawesome.com/440bac5161.js" crossorigin="anonymous"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <title>Home - Proyecto Joel</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@100&display=swap"
+            rel="stylesheet">
+        <link rel="icon" href="img/icon3.ico">
+        <link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+        <link rel="stylesheet" type="text/css" href="CSS/media.css">
+        <link rel="stylesheet" type="text/css" href="CSS/imagen.css">
+        <link rel="stylesheet" type="text/css" href="CSS/barrapro.css">
+        <script defer src="js/menu.js"></script>
+        <script src="https://kit.fontawesome.com/440bac5161.js" crossorigin="anonymous"></script>
+    </head>
 <body>
     <!--INICIO MENU DESPLEGABLE-->
     <aside class="aside active" id="aside">
@@ -25,8 +30,12 @@
         </div>
         <div class="options">
             <div>
-                <i class='bx bx-image-alt' ></i>
-                <span class="option">Imagenes</span>
+                <a href="index.html"><i class='bx bx-home-alt-2'></i>
+                <span class="option">Home</span></a>
+            </div>
+            <div>
+                <a href="imagenes.html"><i class='bx bx-image-alt' ></i>
+                <span class="option">Imagenes</span></a>
             </div>
             <div>
                 <i class='bx bx-cog'></i>
@@ -37,8 +46,8 @@
                 <span class="option">Texto</span>
             </div>
             <div>
-                <i class='bx bx-info-circle' ></i>
-                <span class="option">Info</span>
+                <a href="info.html"><i class='bx bx-info-circle' ></i>
+                <span class="option">Info</span></a>
             </div>
         </div>
     </aside>
@@ -69,7 +78,7 @@
     <!--FIN TITULO, RETRATO-->
         <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
     <!--ACA CONTENEDOR DE IMAGENES-->
-            <h1 class="titulo">Galeria de Imagenes</h1>
+            <h1 class="titulo">Documentos</h1>
         <img class="linea_img" src="img/—Pngtree—background shadow s three-dimensional lines_5054144.png">
             <section class="galeria">
                 <a href="#image1">
@@ -78,22 +87,10 @@
                 <a href="#image2">
                     <img src="img/02.jpg" alt="">
                 </a>
-                <a href="#image3">
-                    <img src="img/03.jpg" alt="">
-                </a>
-                <a href="#image4">
-                    <img src="img/04.jpg" alt="">
-                </a>
-                <a href="#image5">
-                    <img src="img/05.jpg" alt="">
-                </a>
-                <a href="#image6">
-                    <img src="img/06.jpg" alt="">
-                </a>
             </section>
 
             <article class="light-box" id="image1">
-                <a href="#image6" class="next"><i class="fa-solid fa-arrow-left"></i></a>
+                <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
                     <img src="img/01.jpg" alt="">
                 <a href="#image2" class="next"><i class="fa-solid fa-arrow-right"></i></a>
                 <a href="#" class="close">X</a>
@@ -102,34 +99,6 @@
             <article class="light-box" id="image2">
                 <a href="#image1" class="next"><i class="fa-solid fa-arrow-left"></i></a>
                     <img src="img/02.jpg" alt="">
-                <a href="#image3" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#" class="close">X</a>
-            </article>
-
-            <article class="light-box" id="image3">
-                <a href="#image2" class="next"><i class="fa-solid fa-arrow-left"></i></a>
-                    <img src="img/03.jpg" alt="">
-                <a href="#image4" class="next"><i class="fa-solid fa-arrow-right"></i></i></a>
-                <a href="#" class="close">X</a>
-            </article>
-
-            <article class="light-box" id="image4">
-                <a href="#image3" class="next"><i class="fa-solid fa-arrow-left"></i></a>
-                    <img src="img/04.jpg" alt="">
-                <a href="#image5" class="next"><i class="fa-solid fa-arrow-right"></i></a>
-                <a href="#" class="close">X</a>
-            </article>
-
-            <article class="light-box" id="image5">
-                <a href="#image4" class="next"><i class="fa-solid fa-arrow-left"></i></a>
-                    <img src="img/05.jpg" alt="">
-                <a href="#image6" class="next"><i class="fa-solid fa-arrow-right"></i></i></a>
-                <a href="#" class="close">X</a>
-            </article>
-
-            <article class="light-box" id="image6">
-                <a href="#image5" class="next"><i class="fa-solid fa-arrow-left"></i></a>
-                    <img src="img/06.jpg" alt="">
                 <a href="#image1" class="next"><i class="fa-solid fa-arrow-right"></i></a>
                 <a href="#" class="close">X</a>
             </article>
