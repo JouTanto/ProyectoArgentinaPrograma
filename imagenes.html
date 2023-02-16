@@ -14,35 +14,51 @@
     <script src="https://kit.fontawesome.com/440bac5161.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <!--ACA BARRA-->
-    <div id="sidebar">
-        <div class="toggle-btn">
-            <span>&#9776;</span>
+    <!--INICIO MENU DESPLEGABLE-->
+    <aside class="aside active" id="aside">
+        <div class="head">
+            <div class="profile">
+                <img src="img/user.ico" >
+                <h3>Menu</h3>
+            </div>
+            <i class='bx bx-menu' id="menu"></i>
         </div>
-        <ul>
-            <li>
-                <img id="Home" src="img/home.ico">
-                    <a href="index.html"><p>Home</p></a>
-            </li>
-            <li>
-                <img id="Imagenes" src="img/image.ico">
-                    <a href="imagenes.html"><p>Imagenes</p></a>
-            </li>
-            <li>
-                <img id="Imagenes" src="img/workflow-4131.ico">
-                    <a href="#"><p>Texto</p></a>
-            </li>
-            <li>
-                <img id="Imagenes" src="img/workflow-4131.ico">
-                    <a href="#"><p>Texto</p></a>
-            </li>
-            <li>
-                <img id="Info" src="img/info.ico">
-                    <a href="info.html"><p>Info</p></a>
-            </li>
-        </ul>
-    </div>
-    <!--FIN BARRA-->
+        <div class="options">
+            <div>
+                <i class='bx bxs-dashboard' ></i>
+                <span class="option">Dashboard</span>
+            </div>
+            <div>
+                <i class='bx bx-user' ></i>
+                <span class="option">Usuario</span>
+            </div>
+            <div>
+                <i class='bx bx-line-chart'></i>
+                <span class="option">Analisis</span>
+            </div>
+            <div>
+                <i class='bx bx-message-square'></i>
+                <span class="option">Mensaje</span>
+            </div>
+            <div>
+                <i class='bx bx-file-blank'></i>
+                <span class="option">Archivo</span>
+            </div>
+            <div>
+                <i class='bx bx-cart' ></i>
+                <span class="option">Compras</span>
+            </div>
+            <div>
+                <i class='bx bx-heart' ></i>
+                <span class="option">Favoritos</span>
+            </div>
+            <div>
+                <i class='bx bx-cog'></i>
+                <span class="option">Configuracion</span>
+            </div>
+        </div>
+    </aside>
+    <!--FIN MENU DESPLEGABLE-->
     <!--ACA FONDO-->
     <video onloadedmetadata="this.muted=true" autoplay loop muted>
         <source src="img/vecteezy_cinematic-background-with-particles-abstract-motion-of_7634675_405.mp4" codecs="avc1,mp4a"/>
