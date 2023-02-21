@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Tangerine&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-
-*{
-	margin:0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 
 /*DEFINE EL CUERPO, TEXTO Y TITULOS*/
 body {
@@ -15,22 +9,29 @@ body {
 	flex-direction: column;
 	margin: 5px 5px 5px 5px;
 }
-p {color: rgb(255, 255, 255);
-	font-style: italic;
-	text-align: center;
+p {
+	color: rgb(255, 255, 255);
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    margin: 5px 0 5px 0;
+    padding: 5px 5px 5px 5px;
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {color: rgb(255, 255, 255);
-	font-style: italic;
-	text-align: center;
+h6 {
+	color: rgb(255, 255, 255);
+    font-style: italic;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    margin: 40px 0 20px 0;
 }
 .titulo{
     font-size: 50px;
-	font-family:'Tangerine', cursive;
+	font-family: 'Lora', serif;
 	text-shadow: 0px 0px 10px #000000;
 }
 /*FIN CUERPO*/
@@ -41,7 +42,7 @@ h6 {color: rgb(255, 255, 255);
 	flex-direction: row;
     flex-wrap: wrap;
 	justify-content: center;
-	background: linear-gradient(rgba(21, 27, 37, 0.950), rgba(47, 57, 75, 0.950));
+	background: linear-gradient(rgba(21, 27, 37, 0.950), rgba(48, 50, 53, 0.95));
 	margin: auto;
 	margin-top: 25px;
 	margin-bottom: 25px;
@@ -52,72 +53,6 @@ h6 {color: rgb(255, 255, 255);
 	border-radius: 45px;
 }
 /*FIN SECCION CONTENIDO*/
-
-/** DEFINE UN FORMULARIO
-.bg_form {
-	width: 400px;
-	background: linear-gradient(rgba(35, 70, 67), rgba(0, 0, 0));
-	padding: 30px;
-	margin: auto;
-	margin-top: 20px;
-	border-radius: 10px;
-	font-family: 'arial';
-	color: white;
-	box-shadow: 7px -13px 37px black;
-}
-.form_titulo {
-	font-size: 22px;
-	margin-bottom: 20px;
-	text-align: center;
-}
-.bg_inp {
-	width: 95%;
-	background: rgb(32, 32, 37);
-	padding: 10px;
-	border-radius: 4px;
-	margin-bottom: 10px;
-	border: 1px solid rgb(35, 108, 245);
-	font-family: 'arial';
-	font-size: 18px;
-	color: white;
-}
-.btn_registro p {
-	height: 40px;
-	text-align: center;
-	font-size: 18px;
-	line-height: 40px;
-	font-family: 'arial';
-}
-.btn_registro a {
-	color:white;
-	text-decoration: none;
-}
-.btn_registro a:hover {
-	color:rgb(255, 0, 0);
-	text-decoration: underline;
-}
-.form_registro_boton {
-	width: 100%;
-	background: rgb(42, 42, 80);
-	border: none;
-	border-radius: 4px;
-	padding: 12px;
-	color: white;
-	margin: 16px 0;
-	font-size: 16px;
-	transition: all 0.2s;
-}
-.form_registro_boton:hover {
-	width: 100%;
-	background: rgb(42, 80, 57);
-	border: none;
-	border-radius: 4px;
-	padding: 12px;
-	color: white;
-	margin: 16px 0;
-	font-size: 16px;
-}
-FIN DE FORMULARIO*/
 
 /* PARA LOS ICONOS DE TERCEROS*/
 .iconos p{
@@ -186,11 +121,11 @@ FIN DE FORMULARIO*/
 
 /*DEFINE FOTO RETRATO*/
 .contenedor_retrato {
-	display:flex;
+	display: flex;
 	width: 300px;
 	height: 300px;
 	margin: auto 10px;
-	position:relative;
+	position: relative;
 	box-shadow: 0px 0px 10px rgb(110, 109, 52);
 	border-radius: 50px;
 }
@@ -204,22 +139,21 @@ FIN DE FORMULARIO*/
 /*DEFINE TUTULO A UN LADO DEL RETRATO*/
 .titulo_cont {
 	display: flex;
-	float:left;
+	float: left;
 	width: 700px;
-	box-shadow: 0px 0px 10px rgb(52, 110, 106);
 	border-radius: 50px;
 	padding: 10px 10px 10px 10px;
 	margin: 5px 5px 5px 5px;
 	
 }
 .texto_cont {
-	display:flex;
-	font-size: 50px;
+	display: flex;
+	font-size: 40px;
 	text-align: center;
 	width: 650px;
-	margin: 25px 10px 10px 20px;
-	margin-top: 100px;
-	font-family:'Tangerine', cursive;
+	margin: 10px 10px 10px 10px;
+	align-items: center;
+	font-family: 'Lora', serif;
 	text-shadow: 0px 0px 10px #e6e93c;
 }
 /*FIN TITULO A UN LADO DEL RETRATO*/
@@ -237,8 +171,8 @@ video {
 	min-width: 100%;
 	min-height: 100%;
 	position: fixed;
-	top:50%;
-	left:50%;
+	top: 50%;
+	left: 50%;
 	transform: translateY(-50%) translateX(-50%);
 	z-index:-1;
 }
@@ -249,7 +183,7 @@ video {
 	margin: 1px 1px 1px 1px;
     text-align: justify;
     font-size: 50px;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Lora', serif;
     text-decoration: 3px underline;
     text-decoration-color: rgb(0, 114, 190);
     text-shadow: 0px 0px 10px #090c14;
@@ -268,11 +202,11 @@ video {
 
 /*MENU DESPLEGABLE LATERAL*/
 .aside{
-	height: 450px;
+	height: 400px;
 	width: 250px;
 	padding: 10px;
 	margin-top: 10px;
-	background-color: #233355;
+	background-color: #202225;
 	color:white;
 	position: fixed;
 	border-top-right-radius: 10px;
