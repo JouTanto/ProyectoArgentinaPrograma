@@ -29,6 +29,7 @@ h6 {
     padding: 5px 5px 5px 5px;
     margin: 40px 0 20px 0;
 }
+
 .titulo{
     font-size: 50px;
 	font-family: 'Lora', serif;
@@ -75,7 +76,7 @@ h6 {
 /*FIN ICONOS DE TERCEROS*/
 
 /*DEFINE SECCION REDES SOCIALES*/
-.secsocial {
+.contenedor_social {
 		position:fixed;
 		right:0px;
 		top: 50px;
@@ -120,7 +121,7 @@ h6 {
 /*FIN SECCION REDES SOCIALES*/
 
 /*DEFINE FOTO RETRATO*/
-.contenedor_retrato {
+.foto_retrato {
 	display: flex;
 	width: 300px;
 	height: 300px;
@@ -129,7 +130,7 @@ h6 {
 	box-shadow: 0px 0px 10px rgb(110, 109, 52);
 	border-radius: 50px;
 }
-.img_retrato {
+.foto_retrato img {
 	width: 100%;
 	min-width: 224px;
 	border-radius: 50px;
@@ -137,7 +138,7 @@ h6 {
 /*FIN FOTO RETRATO*/
 
 /*DEFINE TUTULO A UN LADO DEL RETRATO*/
-.titulo_cont {
+.contenedor_gral {
 	display: flex;
 	float: left;
 	width: 700px;
@@ -146,7 +147,7 @@ h6 {
 	margin: 5px 5px 5px 5px;
 	
 }
-.texto_cont {
+.contenedor_titulo {
 	display: flex;
 	font-size: 40px;
 	text-align: center;
@@ -179,16 +180,7 @@ video {
 /*FIN VIDEO DE FONDO*/
 
 /*TEXTO*/
-.titulo_datos {
-	margin: 1px 1px 1px 1px;
-    text-align: justify;
-    font-size: 50px;
-    font-family: 'Lora', serif;
-    text-decoration: 3px underline;
-    text-decoration-color: rgb(0, 114, 190);
-    text-shadow: 0px 0px 10px #090c14;
-}
-.contenedor_texto{
+.contenedor_datos{
 	display: flex;
     flex-direction: column;
     align-items: center;
@@ -200,6 +192,16 @@ video {
 	border-radius: 20px;
 	box-shadow: 0px 0px 10px rgb(255, 255, 255);
 	font-size: 20px;
+}
+
+.contenedor_titulo_datos {
+	margin: 1px 1px 1px 1px;
+    text-align: justify;
+    font-size: 50px;
+    font-family: 'Lora', serif;
+    text-decoration: 3px underline;
+    text-decoration-color: rgb(0, 114, 190);
+    text-shadow: 0px 0px 10px #090c14;
 }
 /*FIN TEXTO*/
 
