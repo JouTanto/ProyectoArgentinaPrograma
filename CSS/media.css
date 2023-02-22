@@ -6,29 +6,29 @@
     padding: 10px 10px 10px 10px;
     width: 95%;
 }
-.titulo_cont {
+.contenedor_gral {
     width: 95%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
-.contenedor_retrato {
+.foto_retrato {
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
     border-radius: 20px;
 }
-.img_retrato {
+.foto_retrato img {
     width: 100%;
     min-width: 224px;
     border-radius: 20px;
 }
-.texto_cont {
+.contenedor_titulo {
     font-size: 30px;
     padding: 5px 5px 5px 5px;
     margin: 10px 0 10px 0;
 }
-.secsocial {
+.contenedor_social {
     left: 350px;
     top: 200px;
     font-size: 24px;
@@ -56,29 +56,29 @@
     padding: 10px 10px 10px 10px;
     width: 95%;
 }
-.titulo_cont {
+.contenedor_gral {
     width: 95%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
-.contenedor_retrato {
+.foto_retrato {
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
     border-radius: 20px;
 }
-.img_retrato {
+.foto_retrato img {
     width: 100%;
     min-width: 224px;
     border-radius: 20px;
 }
-.texto_cont {
+.contenedor_titulo {
     font-size: 30px;
     padding: 5px 5px 5px 5px;
     margin: 10px 0 10px 0;
 }
-.secsocial {
+.contenedor_social {
     left: 350px;
     top: 150px;
     font-size: 24px;
@@ -101,29 +101,29 @@
     padding: 10px 10px 10px 10px;
     width: 95%;
 }
-.titulo_cont {
+.contenedor_gral {
     width: 70%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
-.contenedor_retrato {
+.foto_retrato {
     width: 70%;
     height: 90%;
     margin: 10px 5px 15px 5px;
     border-radius: 20px;
 }
-.img_retrato {
+.foto_retrato img {
     width: 100%;
     min-width: 224px;
     border-radius: 20px;
 }
-.texto_cont {
+.contenedor_titulo {
     font-size: 35px;
     padding: 10px 10px 10px 10px;
     margin: 25px 0 25px 0;
 }
-.secsocial {
+.contenedor_social {
     left: 350px;
     top: 150px;
     font-size: 24px;
@@ -146,29 +146,29 @@
     padding: 10px 10px 10px 10px;
     width: 95%;
 }
-.titulo_cont {
+.contenedor_gral {
     width: 70%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
-.contenedor_retrato {
+.foto_retrato {
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
     border-radius: 20px;
 }
-.img_retrato {
+.foto_retrato img {
     width: 100%;
     min-width: 224px;
     border-radius: 20px;
 }
-.texto_cont {
+.contenedor_titulo {
     font-size: 40px;
     padding: 10px 10px 10px 10px;
     margin: 30px 0 30px 0;
 }
-.secsocial {
+.contenedor_social {
     left: 350px;
     top: 100px;
     font-size: 24px;
@@ -191,29 +191,29 @@
     padding: 10px 10px 10px 10px;
     width: 1024px;
 }
-.titulo_cont {
+.contenedor_gral {
     width: 90%;
     border-radius: 20px;
     padding: 5px 5px 5px 5px;
     margin: 5px 5px 5px 5px;
 }
-.contenedor_retrato {
+.foto_retrato {
     width: 90%;
     height: 90%;
     margin: 20px 5px 5px 5px;
     border-radius: 20px;
 }
-.img_retrato {
+.foto_retrato img {
     width: 100%;
     min-width: 224px;
     border-radius: 20px;
 }
-.texto_cont {
+.contenedor_titulo {
     font-size: 40px;
     padding: 10px 10px 10px 10px;
     margin: 50px 0 50px 0;
 }
-.secsocial {
+.contenedor_social {
     left: 350px;
     top: 50px;
     font-size: 24px;
