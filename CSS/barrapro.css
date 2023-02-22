@@ -3,16 +3,10 @@
     max-width: 650px;
     padding: auto 30px;
 }
-#html{
-    margin: 1px 1px 10px 50px;
-}
 
-#css{
-    margin: 1px 1px 10px 50px;
-}
-
-#js{
-    margin: 1px 1px 10px 50px;
+.habilidades i{
+    font-size: 40px;
+    color: rgb(184, 184, 184);
 }
 
 .habil_barra{
