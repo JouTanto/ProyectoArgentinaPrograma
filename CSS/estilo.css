@@ -80,7 +80,6 @@ h6 {
 		position:fixed;
 		right:0px;
 		top: 50px;
-		font-size: 24px;
 		display:flex;
 		flex-direction: column;
 		align-items:flex-end;
@@ -91,21 +90,22 @@ h6 {
 		padding: 8px;
 		display: flex;
 		transition: all .5s;
+		font-size: 35px;
 }
 .icono_instagram {
-	background: #3f60a5;
+	background: rgb(44, 44, 44);
 }
 .icono_facebook {
-	background: #2E406E;
+	background: rgb(44, 44, 44);
 }
 .icono_twitter {
-	background: #339DC5;
+	background: rgb(44, 44, 44);
 }
 .icono_github {
-	background: #38bbeb;
+	background: rgb(44, 44, 44);
 }
 .icono_mail {
-	background: rgb(41, 40, 40);
+	background: rgb(44, 44, 44);
 }
 .icono:first-child {
 	border-radius: 16px 0 0 0;
@@ -114,9 +114,9 @@ h6 {
 	border-radius: 0 0 0 16px;
 }
 .icono:hover {
-	padding-right: 48px;
+	padding-right: 50px;
 	border-radius: 16px 0 0 16px;
-	box-shadow: 0 0 8px rgba(0, 0, 0, 0.42);
+	box-shadow: 0 0 8px rgba(0, 0, 0);
 }
 /*FIN SECCION REDES SOCIALES*/
 
