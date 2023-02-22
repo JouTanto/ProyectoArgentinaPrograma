@@ -16,12 +16,10 @@
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
-    border-radius: 20px;
 }
 .foto_retrato img {
     width: 100%;
     min-width: 224px;
-    border-radius: 20px;
 }
 .contenedor_titulo {
     font-size: 30px;
@@ -66,12 +64,10 @@
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
-    border-radius: 20px;
 }
 .foto_retrato img {
     width: 100%;
     min-width: 224px;
-    border-radius: 20px;
 }
 .contenedor_titulo {
     font-size: 30px;
@@ -111,12 +107,10 @@
     width: 70%;
     height: 90%;
     margin: 10px 5px 15px 5px;
-    border-radius: 20px;
 }
 .foto_retrato img {
     width: 100%;
     min-width: 224px;
-    border-radius: 20px;
 }
 .contenedor_titulo {
     font-size: 35px;
@@ -156,12 +150,10 @@
     width: 70%;
     height: 90%;
     margin: 10px 5px 10px 5px;
-    border-radius: 20px;
 }
 .foto_retrato img {
     width: 100%;
     min-width: 224px;
-    border-radius: 20px;
 }
 .contenedor_titulo {
     font-size: 40px;
@@ -201,12 +193,10 @@
     width: 90%;
     height: 90%;
     margin: 20px 5px 5px 5px;
-    border-radius: 20px;
 }
 .foto_retrato img {
     width: 100%;
     min-width: 224px;
-    border-radius: 20px;
 }
 .contenedor_titulo {
     font-size: 40px;
